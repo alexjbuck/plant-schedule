@@ -20,6 +20,13 @@
       "rules": {
         "unicorn/require-module-specifiers": "off"
       }
+    },
+    {
+      "files": ["scripts/**/*.ts"],
+      "rules": {
+        "no-console": "off",
+        "no-underscore-dangle": "off"
+      }
     }
   ]
 }
