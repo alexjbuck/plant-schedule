@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { base } from '$app/paths';
+  import { resolve } from '$app/paths';
 
   const cardClass =
     'rounded-card border border-sage/20 bg-cream-soft/60 p-4 text-moss transition ' +
@@ -26,25 +26,25 @@
   </section>
 
   <nav aria-label="Primary views" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-    <a href="{base}/timeline/" class={cardClass}>
+    <a href={resolve('/timeline')} class={cardClass}>
       <h3 class="font-display text-lg font-semibold">Year timeline</h3>
       <p class="text-sm text-moss-light dark:text-cream-soft">
         Gantt-style view of every selected crop across the whole season.
       </p>
     </a>
-    <a href="{base}/this-weekend/" class={cardClass}>
+    <a href={resolve('/this-weekend')} class={cardClass}>
       <h3 class="font-display text-lg font-semibold">This weekend</h3>
       <p class="text-sm text-moss-light dark:text-cream-soft">
         Actionable list for the next seven days, sanity-checked against the forecast.
       </p>
     </a>
-    <a href="{base}/upcoming/" class={cardClass}>
+    <a href={resolve('/upcoming')} class={cardClass}>
       <h3 class="font-display text-lg font-semibold">Start preparing for</h3>
       <p class="text-sm text-moss-light dark:text-cream-soft">
         What's coming up two to six weeks out.
       </p>
     </a>
-    <a href="{base}/plants/tomato/" class={cardClass}>
+    <a href={resolve('/plants/[slug]', { slug: 'tomato' })} class={cardClass}>
       <h3 class="font-display text-lg font-semibold">Plant details</h3>
       <p class="text-sm text-moss-light dark:text-cream-soft">
         Spacing, depth, time to maturity, and harvest cues per crop.

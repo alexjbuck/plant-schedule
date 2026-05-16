@@ -1,0 +1,29 @@
+# Fast checks on every commit, heavier checks on every push.
+# Auto-installed via the "prepare" script in package.json.
+
+pre-commit:
+  parallel: true
+  commands:
+    oxfmt:
+      glob: '*.{ts,js,json,jsonc,mjs,cjs}'
+      run: pnpm exec oxfmt --check --no-error-on-unmatched-pattern {staged_files}
+    prettier-svelte:
+      glob: '*.svelte'
+      run: pnpm exec prettier --check {staged_files}
+    oxlint:
+      glob: '*.{ts,js,mjs,cjs}'
+      run: pnpm exec oxlint {staged_files}
+    eslint-svelte:
+      glob: '*.svelte'
+      run: pnpm exec eslint {staged_files}
+    validate-plants:
+      glob: 'src/lib/data/plants/*.json'
+      run: pnpm validate:plants
+
+pre-push:
+  parallel: true
+  commands:
+    typecheck:
+      run: pnpm check
+    test:
+      run: pnpm test

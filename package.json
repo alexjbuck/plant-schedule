@@ -17,7 +17,7 @@
     "format": "oxfmt && prettier --write \"src/**/*.svelte\"",
     "format:check": "oxfmt --check && prettier --check \"src/**/*.svelte\"",
     "validate:plants": "tsx scripts/validate-plants.ts",
-    "prepare": "svelte-kit sync || echo ''"
+    "prepare": "svelte-kit sync || true; lefthook install || true"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.0",
@@ -28,6 +28,7 @@
     "@vitest/coverage-v8": "^3.0.0",
     "eslint": "^9.15.0",
     "eslint-plugin-svelte": "^3.0.0",
+    "lefthook": "^2.1.6",
     "oxfmt": "^0.50.0",
     "oxlint": "^1.0.0",
     "prettier": "^3.4.0",
