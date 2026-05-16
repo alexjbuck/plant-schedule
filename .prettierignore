@@ -1,0 +1,10 @@
+.svelte-kit
+build
+node_modules
+coverage
+pnpm-lock.yaml
+*.ts
+*.js
+*.json
+*.mjs
+*.cjs
