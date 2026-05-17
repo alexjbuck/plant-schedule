@@ -1,0 +1,74 @@
+{
+  "slug": "bok-choy",
+  "name": "Bok choy",
+  "scientificName": "Brassica rapa (Chinensis)",
+  "category": "brassica",
+  "tags": ["cool-season", "fast", "succession"],
+  "growth": {
+    "daysToGermination": [4, 10],
+    "daysToMaturity": [40, 60],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 28,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD",
+      "notes": "Bolts fast in heat — don't sow late spring."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall is the better season."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-2w",
+      "to": "LFD+2w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+3w",
+      "to": "FFD"
+    }
+  ],
+  "companions": {
+    "good": ["beet", "carrot", "onion", "dill"],
+    "bad": ["strawberry", "tomato"]
+  },
+  "pests": ["flea-beetle", "cabbage-worm", "aphid"],
+  "harvest": {
+    "cues": "Outer stalks 4 to 8 in (baby) or full head firm and compact (4 to 6 weeks). Cut at the base.",
+    "storageNotes": "Fridge crisper 5 to 7 days. Best fresh — wilts within a week."
+  },
+  "varieties": [
+    {
+      "slug": "joi-choi",
+      "name": "Joi Choi",
+      "subCategory": "white-stem",
+      "daysToMaturity": [45, 55],
+      "notes": "Heat-tolerant hybrid. White stems, slow to bolt."
+    },
+    {
+      "slug": "tatsoi",
+      "name": "Tatsoi",
+      "subCategory": "rosette",
+      "daysToMaturity": [40, 50],
+      "notes": "Spoon-shaped dark green leaves in a flat rosette. Extra cold-hardy."
+    }
+  ],
+  "notes": "Best as a fall crop in most climates — spring sowings bolt at the slightest heat. Row cover protects from flea beetles."
+}

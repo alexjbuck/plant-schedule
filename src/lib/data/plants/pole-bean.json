@@ -1,0 +1,71 @@
+{
+  "slug": "pole-bean",
+  "name": "Pole bean",
+  "scientificName": "Phaseolus vulgaris",
+  "category": "legume",
+  "tags": ["warm-season", "trellis", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 75],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD",
+      "to": "LFD+2w",
+      "notes": "Plant at the base of poles, teepees, or trellises 6 ft+ tall."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-2w",
+      "notes": "Every 2 days at peak. Beans never stop until frost — much longer harvest than bush types."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "carrot", "cucumber", "radish"],
+    "bad": ["onion", "garlic", "fennel"]
+  },
+  "pests": ["bean-beetle", "aphid", "rust", "halo-blight"],
+  "harvest": {
+    "cues": "Pods firm and snap cleanly. Daily picking keeps plants producing.",
+    "storageNotes": "Fridge 5 to 7 days. Blanch and freeze."
+  },
+  "varieties": [
+    {
+      "slug": "kentucky-wonder",
+      "name": "Kentucky Wonder",
+      "subCategory": "green",
+      "daysToMaturity": [65, 75],
+      "notes": "Heirloom standard. 6 to 9 in pods, prolific."
+    },
+    {
+      "slug": "scarlet-runner",
+      "name": "Scarlet Runner",
+      "subCategory": "runner",
+      "daysToMaturity": [70, 80],
+      "notes": "Stunning red flowers. Hummingbird magnet; beans get fibrous if not picked young."
+    },
+    {
+      "slug": "rattlesnake",
+      "name": "Rattlesnake",
+      "subCategory": "snap",
+      "daysToMaturity": [70, 80],
+      "notes": "Heat-tolerant. Purple-streaked pods (streaks fade with cooking)."
+    }
+  ],
+  "notes": "Set the trellis first; bean roots are shallow and you'll damage them later. Pole beans outyield bush in most seasons and harvest twice as long."
+}

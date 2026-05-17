@@ -1,0 +1,73 @@
+{
+  "slug": "cantaloupe",
+  "name": "Cantaloupe",
+  "scientificName": "Cucumis melo",
+  "category": "cucurbit",
+  "tags": ["warm-season", "vine", "long-season"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [75, 100],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 60, "cm": 150 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 70,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 60,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-3w",
+      "to": "LFD-2w",
+      "notes": "Peat pots only — melons hate root disturbance."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+3w",
+      "notes": "Wait for soil 70+ F. Use black plastic mulch in short-season climates."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD-2w"
+    }
+  ],
+  "companions": {
+    "good": ["corn", "radish", "nasturtium"],
+    "bad": ["potato"]
+  },
+  "pests": ["cucumber-beetle", "squash-bug", "powdery-mildew", "downy-mildew"],
+  "harvest": {
+    "cues": "Stem slips off the fruit with light pressure ('full slip'). Strong cantaloupe perfume at the blossom end.",
+    "storageNotes": "Counter to finish ripening; fridge 5 to 7 days cut or whole-ripe."
+  },
+  "varieties": [
+    {
+      "slug": "hales-best",
+      "name": "Hale's Best Jumbo",
+      "subCategory": "standard",
+      "daysToMaturity": [80, 90]
+    },
+    {
+      "slug": "minnesota-midget",
+      "name": "Minnesota Midget",
+      "subCategory": "short-season",
+      "daysToMaturity": [60, 75],
+      "notes": "Bred for short summers, small 4 to 6 in fruit. Good for cool climates."
+    }
+  ],
+  "notes": "Heat is everything — even one cool week stalls them. Mulch with black plastic in zones 5 and colder; cover with row cloth at transplant. Reduce water once fruit starts to net."
+}

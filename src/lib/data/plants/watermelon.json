@@ -1,0 +1,70 @@
+{
+  "slug": "watermelon",
+  "name": "Watermelon",
+  "scientificName": "Citrullus lanatus",
+  "category": "cucurbit",
+  "tags": ["warm-season", "vine", "long-season"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [80, 100],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 72, "cm": 180 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 70,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 60,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-3w",
+      "to": "LFD-2w",
+      "notes": "Peat pots. Don't bother where seasons are long enough to direct-sow."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Soil must be 70+ F."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+13w",
+      "to": "FFD-2w",
+      "notes": "Tendril nearest the fruit is brown and dry; ground spot turns from white to yellow."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "radish", "nasturtium"],
+    "bad": ["potato"]
+  },
+  "pests": ["cucumber-beetle", "squash-bug", "anthracnose", "fusarium-wilt"],
+  "harvest": {
+    "cues": "Tendril at the fruit stem is brown and crisp; ground spot is creamy yellow; tap gives a deep thunk.",
+    "storageNotes": "Counter 7 to 10 days; fridge cuts shelf life to 4 days. Cut keeps 3 days in fridge."
+  },
+  "varieties": [
+    {
+      "slug": "sugar-baby",
+      "name": "Sugar Baby",
+      "subCategory": "icebox",
+      "daysToMaturity": [75, 85],
+      "notes": "6 to 10 lb. Best for short seasons and small gardens."
+    },
+    {
+      "slug": "crimson-sweet",
+      "name": "Crimson Sweet",
+      "subCategory": "standard",
+      "daysToMaturity": [85, 95],
+      "notes": "20 to 25 lb classic stripe. Long season."
+    }
+  ],
+  "notes": "Long-season heat lover; in zone 5 or colder use transplants on black plastic. Don't trellis large-fruited types — they need a hammock at minimum. Cut water near harvest for sweeter melons."
+}

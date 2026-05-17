@@ -1,0 +1,74 @@
+{
+  "slug": "brussels-sprouts",
+  "name": "Brussels sprouts",
+  "scientificName": "Brassica oleracea (Gemmifera)",
+  "category": "brassica",
+  "tags": ["cool-season", "long-season", "frost-sweetened"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [90, 110],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 15,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-2w",
+      "to": "LFD",
+      "notes": "Time backwards from first frost — they need 90 to 110 days to mature into cool weather."
+    },
+    {
+      "phase": "transplant",
+      "from": "FFD-14w",
+      "to": "FFD-12w"
+    },
+    {
+      "phase": "side-dress",
+      "from": "FFD-10w",
+      "to": "FFD-8w"
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-2w",
+      "to": "FFD+4w",
+      "notes": "Pick from the bottom up as sprouts firm to 1 in. Frost makes them sweet."
+    }
+  ],
+  "companions": {
+    "good": ["beet", "celery", "onion", "potato"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "aphid", "clubroot"],
+  "harvest": {
+    "cues": "Sprouts 1 to 1.5 in across, firm. Snap off lowest leaves as you go to expose more.",
+    "storageNotes": "On the stalk in a cool place 2 weeks; off-stalk in fridge 1 week."
+  },
+  "varieties": [
+    {
+      "slug": "long-island-improved",
+      "name": "Long Island Improved",
+      "subCategory": "open-pollinated",
+      "daysToMaturity": [90, 110],
+      "notes": "Classic heirloom. Reliable in most climates."
+    },
+    {
+      "slug": "diablo",
+      "name": "Diablo",
+      "subCategory": "hybrid",
+      "daysToMaturity": [105, 115],
+      "notes": "Uniform sprouts, sturdy stalks, holds well in heavy snow."
+    }
+  ],
+  "notes": "Long-game crop — plant when summer is hot to harvest after frost. Top the plant 4 weeks before harvest to push energy into the sprouts."
+}
