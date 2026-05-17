@@ -2,6 +2,7 @@
   import '../app.css';
   import { browser } from '$app/environment';
   import { prefs } from '$lib/prefs.svelte';
+  import InstallPrompt from '$lib/components/InstallPrompt.svelte';
 
   let { children } = $props();
 
@@ -28,3 +29,4 @@
 <div class="mx-auto flex min-h-dvh max-w-6xl flex-col px-4 py-6 sm:px-6">
   {@render children()}
 </div>
+<InstallPrompt />
