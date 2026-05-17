@@ -1,0 +1,241 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+  deployments: write
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  setup:
+    name: Install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+  format:
+    name: Format
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec oxfmt --check
+      - run: pnpm exec prettier --check "src/**/*.svelte"
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec oxlint --format=github
+      - run: pnpm exec eslint "src/**/*.svelte"
+
+  typecheck:
+    name: Typecheck
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test:cov
+      - name: Post coverage comment
+        if: github.event_name == 'pull_request'
+        uses: davelosert/vitest-coverage-report-action@v2
+        with:
+          name: Coverage
+
+  validate-plants:
+    name: Validate plant data
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm validate:plants
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [format, lint, typecheck, test, validate-plants]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Build (production)
+        if: github.ref == 'refs/heads/main'
+        run: pnpm build
+        env:
+          BASE_PATH: /plant-schedule
+      - name: Build (preview)
+        if: github.ref != 'refs/heads/main'
+        run: pnpm build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ github.sha }}
+          path: build
+          retention-days: 7
+
+  preview-deploy:
+    name: Cloudflare Pages preview
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    needs: build
+    outputs:
+      url: ${{ steps.deploy.outputs.deployment-url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-${{ github.sha }}
+          path: build
+      - name: Ensure Cloudflare Pages project exists
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create plant-schedule --production-branch=main
+          packageManager: pnpm
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy build --project-name=plant-schedule --branch=${{ github.head_ref }} --commit-dirty=true
+          packageManager: pnpm
+      - name: Comment preview URL
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: preview-url
+          message: |
+            ### Preview deployment
+
+            ${{ steps.deploy.outputs.deployment-url }}
+
+            Built from ${{ github.sha }}
+
+  lighthouse:
+    name: Lighthouse CI
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    needs: preview-deploy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run Lighthouse
+        id: lhci
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            ${{ needs.preview-deploy.outputs.url }}
+            ${{ needs.preview-deploy.outputs.url }}/timeline
+            ${{ needs.preview-deploy.outputs.url }}/this-weekend
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+      - name: Format Lighthouse scores
+        id: format
+        if: always()
+        env:
+          MANIFEST: ${{ steps.lhci.outputs.manifest }}
+          LINKS: ${{ steps.lhci.outputs.links }}
+        run: |
+          set -euo pipefail
+          if [ -z "${MANIFEST:-}" ] || [ "$MANIFEST" = "null" ]; then
+            {
+              echo 'body<<EOF'
+              echo 'Lighthouse run failed before producing results.'
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          table=$(echo "$MANIFEST" | jq -r --argjson links "$LINKS" '
+            [
+              "| Route | Perf | A11y | Best Practices | SEO |",
+              "| --- | ---: | ---: | ---: | ---: |",
+              (.[] | select(.isRepresentativeRun)
+                | (.url | sub("https?://[^/]+"; "")) as $path
+                | ($links[.url] // "") as $link
+                | (if $link == "" then "`\($path)`" else "[`\($path)`](\($link))" end) as $cell
+                | "| \($cell) | \(.summary.performance * 100 | round) | \(.summary.accessibility * 100 | round) | \(.summary["best-practices"] * 100 | round) | \(.summary.seo * 100 | round) |")
+            ] | join("\n")
+          ')
+          {
+            echo 'body<<EOF'
+            echo "$table"
+            echo
+            echo "_Preview deploys carry an \`X-Robots-Tag: noindex\` header from Cloudflare Pages; the SEO score is reduced accordingly. Production scores at \`alexjbuck.github.io/plant-schedule/\` will be higher._"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+      - name: Comment Lighthouse scores
+        if: always()
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: lighthouse
+          message: |
+            ### Lighthouse scores
+
+            ${{ steps.format.outputs.body }}

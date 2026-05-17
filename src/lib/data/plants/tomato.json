@@ -1,0 +1,77 @@
+{
+  "slug": "tomato",
+  "name": "Tomato",
+  "scientificName": "Solanum lycopersicum",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "transplant", "vine"],
+  "growth": {
+    "daysToGermination": [6, 14],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Bottom-heat to 75 to 80 F speeds germination."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "Wait until overnight lows are reliably above 50 F."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+6w",
+      "to": "LFD+8w",
+      "notes": "After first fruit set, balanced fertilizer."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD"
+    }
+  ],
+  "companions": {
+    "good": ["basil", "carrot", "onion", "parsley"],
+    "bad": ["brassica", "fennel", "potato"]
+  },
+  "pests": ["hornworm", "aphid", "early-blight", "late-blight", "blossom-end-rot"],
+  "harvest": {
+    "cues": "Fruit fully colored, slight give when gently squeezed. Twist or snip to avoid tearing the vine.",
+    "storageNotes": "Counter-ripen stem-side down. Do not refrigerate ripe tomatoes — destroys flavor and texture."
+  },
+  "varieties": [
+    {
+      "slug": "cherokee-purple",
+      "name": "Cherokee Purple",
+      "growthHabit": "indeterminate",
+      "subCategory": "slicer-heirloom",
+      "daysToMaturity": [80, 90],
+      "notes": "Dusky pink-purple beefsteak, complex sweet-savory flavor. Prone to cracking in heavy rain; mulch heavily."
+    },
+    {
+      "slug": "sungold",
+      "name": "Sungold",
+      "growthHabit": "indeterminate",
+      "subCategory": "cherry",
+      "daysToMaturity": [57, 65],
+      "notes": "Very prolific orange cherry, almost tropical sweetness. Skin splits near ripeness in rainy weeks — pick early."
+    }
+  ],
+  "notes": "Determinate types want a stake; indeterminate types want a tall cage or a string-trellis system. Pinch suckers on indeterminates for cleaner airflow."
+}
