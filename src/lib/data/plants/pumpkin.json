@@ -1,0 +1,77 @@
+{
+  "slug": "pumpkin",
+  "name": "Pumpkin",
+  "scientificName": "Cucurbita pepo / maxima",
+  "category": "cucurbit",
+  "tags": ["warm-season", "long-season", "sprawling"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [85, 120],
+    "spacing": { "in": 36, "cm": 90 },
+    "rowSpacing": { "in": 72, "cm": 180 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Calculate backwards from Halloween or first frost — needs 85 to 120 days."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+5w",
+      "to": "LFD+7w",
+      "notes": "Compost when vines start running."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-3w",
+      "to": "FFD",
+      "notes": "Skin is hard and resists thumbnail; stem dry and corky. Cut with 4 in of stem."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "bean", "nasturtium", "radish"],
+    "bad": ["potato"]
+  },
+  "pests": ["squash-bug", "squash-vine-borer", "powdery-mildew", "cucumber-beetle"],
+  "harvest": {
+    "cues": "Deep uniform color, hard rind, dry corky stem. Skin should resist thumbnail pressure.",
+    "storageNotes": "Cure 10 days at 80 F dry. Store at 50 to 55 F. Pie pumpkins keep 3 to 6 months; Cinderella types up to a year."
+  },
+  "varieties": [
+    {
+      "slug": "small-sugar",
+      "name": "Small Sugar (New England Pie)",
+      "subCategory": "pie",
+      "daysToMaturity": [100, 110],
+      "notes": "6 to 8 lb. Dense flesh, low water. The pie standard."
+    },
+    {
+      "slug": "jack-o-lantern",
+      "name": "Jack O' Lantern",
+      "subCategory": "carving",
+      "daysToMaturity": [100, 110],
+      "notes": "10 to 15 lb. Watery flesh; great for carving, mediocre for eating."
+    },
+    {
+      "slug": "cinderella",
+      "name": "Cinderella (Rouge Vif d'Etampes)",
+      "subCategory": "heirloom",
+      "daysToMaturity": [105, 115],
+      "notes": "Flat, deeply ribbed red-orange. Excellent eating and exceptional storage."
+    }
+  ],
+  "notes": "Needs 50+ square feet per vine. Plant on a compost mound for free fertility. Wood mulch under fruit prevents rot from ground contact."
+}

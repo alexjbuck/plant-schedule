@@ -1,0 +1,69 @@
+{
+  "slug": "rutabaga",
+  "name": "Rutabaga",
+  "scientificName": "Brassica napus (Napobrassica)",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "long-storage", "frost-sweetened"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [90, 110],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 15,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "FFD-14w",
+      "to": "FFD-10w",
+      "notes": "Time backwards from first frost. Hot summer growth = woody roots."
+    },
+    {
+      "phase": "thin",
+      "from": "FFD-12w",
+      "to": "FFD-8w",
+      "notes": "To 6 in apart."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD",
+      "to": "FFD+8w",
+      "notes": "After hard frost. Roots can stay in the ground under mulch through winter."
+    }
+  ],
+  "companions": {
+    "good": ["pea", "bean", "lettuce", "onion"],
+    "bad": ["potato"]
+  },
+  "pests": ["root-maggot", "flea-beetle", "clubroot"],
+  "harvest": {
+    "cues": "Roots 4 to 5 in across at the shoulder, purple-top and yellow flesh.",
+    "storageNotes": "Top, fridge 1 month. Damp sand in a cellar: 4 to 6 months. Waxed for grocery sale: lasts even longer."
+  },
+  "varieties": [
+    {
+      "slug": "american-purple-top",
+      "name": "American Purple Top",
+      "subCategory": "standard",
+      "daysToMaturity": [90, 100]
+    },
+    {
+      "slug": "joan",
+      "name": "Joan",
+      "subCategory": "modern",
+      "daysToMaturity": [95, 100],
+      "notes": "Smoother shoulders, less side roots. Easier to peel."
+    }
+  ],
+  "notes": "Fall crop only — spring planting bolts in heat. Two hard frosts before harvest convert starch to sugar; the difference is dramatic."
+}

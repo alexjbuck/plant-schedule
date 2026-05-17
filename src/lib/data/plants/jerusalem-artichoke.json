@@ -1,0 +1,62 @@
+{
+  "slug": "jerusalem-artichoke",
+  "name": "Jerusalem artichoke (Sunchoke)",
+  "scientificName": "Helianthus tuberosus",
+  "category": "tuber",
+  "tags": ["perennial", "aggressive", "tall"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [120, 150],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 4, "cm": 10 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 80],
+    "minNightTempF": -25,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Plant tubers 4 in deep. Plants grow to 8 to 10 ft. Pick your spot wisely — they're impossible to eradicate once established."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD",
+      "to": "FFD+12w",
+      "notes": "Lift after frost knocks down the tops. Frost dramatically improves flavor."
+    }
+  ],
+  "companions": {
+    "good": ["corn"],
+    "bad": ["tomato", "potato"]
+  },
+  "pests": ["aphid", "slugs", "deer"],
+  "harvest": {
+    "cues": "Tops blackened by frost; tubers 1 to 3 in long, lumpy. Mulch heavily to harvest through winter.",
+    "storageNotes": "Best left in the ground under mulch. Dig as needed. Once dug, fridge 1 to 2 weeks max — they dry quickly."
+  },
+  "varieties": [
+    {
+      "slug": "stampede",
+      "name": "Stampede",
+      "subCategory": "early",
+      "notes": "Fastest to maturity, large white tubers."
+    },
+    {
+      "slug": "red-fuseau",
+      "name": "Red Fuseau",
+      "subCategory": "elongated",
+      "notes": "Smooth, finger-shaped, red-skinned. Easier to clean than knobby types."
+    }
+  ],
+  "notes": "Plant on the north edge of the garden — they shade everything south of them. Contains inulin, which is gas-producing for many people; cook well and start with small portions. Self-perpetuates from any leftover tuber fragment."
+}

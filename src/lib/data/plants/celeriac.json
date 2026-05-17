@@ -1,0 +1,74 @@
+{
+  "slug": "celeriac",
+  "name": "Celeriac",
+  "scientificName": "Apium graveolens var. rapaceum",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "long-season", "long-storage"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [100, 130],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "high"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 28,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-12w",
+      "to": "LFD-10w",
+      "notes": "Surface-sow; needs light. Notoriously slow."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+2w"
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+6w",
+      "to": "LFD+10w",
+      "notes": "Steady moisture and feeding. Rub off side shoots to keep the root smooth."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+14w",
+      "to": "FFD+4w",
+      "notes": "Lift after light frosts for sweeter flavor. Trim leaves and the gnarled bottom."
+    }
+  ],
+  "companions": {
+    "good": ["leek", "tomato", "cabbage", "bean"],
+    "bad": ["parsnip"]
+  },
+  "pests": ["carrot-fly", "slug", "leaf-miner"],
+  "harvest": {
+    "cues": "Bulb 3 to 5 in across, firm. Frost-sweetened. Lift with a fork; trim leaves and roots.",
+    "storageNotes": "Fridge crisper 1 month. Damp sand in a cool cellar 4 to 6 months."
+  },
+  "varieties": [
+    {
+      "slug": "brilliant",
+      "name": "Brilliant",
+      "subCategory": "modern",
+      "daysToMaturity": [110, 120],
+      "notes": "Smoother bulb than older varieties; less waste at peeling."
+    },
+    {
+      "slug": "giant-prague",
+      "name": "Giant Prague",
+      "subCategory": "heirloom",
+      "daysToMaturity": [110, 130]
+    }
+  ],
+  "notes": "The 'why bother' of root crops until you eat it — nutty, celery-like, excellent in soups and remoulade. Wants steady water all season; stress = small bulbs."
+}

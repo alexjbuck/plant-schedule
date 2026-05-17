@@ -1,0 +1,70 @@
+{
+  "slug": "endive",
+  "name": "Endive (Escarole)",
+  "scientificName": "Cichorium endivia",
+  "category": "leafy-green",
+  "tags": ["cool-season", "bitter", "blanchable"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Or start indoors 6 weeks before."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall is the easier season; mild temperatures make milder leaves."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+6w",
+      "to": "FFD",
+      "notes": "Tie outer leaves over the heart 2 weeks before cutting to blanch (sweeten) the inner leaves."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "carrot", "fennel"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug", "tip-burn"],
+  "harvest": {
+    "cues": "Head 8 to 10 in across, firm. Cut at the soil line.",
+    "storageNotes": "Fridge crisper in plastic 1 week. Blanched leaves don't keep as long as unblanched."
+  },
+  "varieties": [
+    {
+      "slug": "frisee",
+      "name": "Frisée",
+      "subCategory": "curly-endive",
+      "daysToMaturity": [60, 80],
+      "notes": "Frilly outer leaves, blanched yellow center. The bistro salad."
+    },
+    {
+      "slug": "broad-leaved-escarole",
+      "name": "Broad-leaved Escarole",
+      "subCategory": "escarole",
+      "daysToMaturity": [80, 90],
+      "notes": "Flat dark leaves. Excellent in soups and stews."
+    }
+  ],
+  "notes": "Bitter raw, mellows with cooking or blanching. Hold off harvest in summer heat — bitterness intensifies. Frost actually sweetens the leaves."
+}
