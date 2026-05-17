@@ -1,0 +1,56 @@
+{
+  "slug": "horseradish",
+  "name": "Horseradish",
+  "scientificName": "Armoracia rusticana",
+  "category": "root-vegetable",
+  "tags": ["perennial", "spicy", "aggressive"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [140, 240],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 3, "cm": 8 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -30,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD+2w",
+      "notes": "Plant root cuttings (sets) at 45° angle, top 2 in below soil. Contain in a buried bottomless bucket — spreads aggressively."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD",
+      "to": "FFD+4w",
+      "notes": "Lift after frost; flavor peaks in fall. Save side roots for next year's planting."
+    }
+  ],
+  "companions": {
+    "good": ["potato", "rhubarb"],
+    "bad": []
+  },
+  "pests": ["flea-beetle"],
+  "harvest": {
+    "cues": "Roots are 8 to 12 in long, 1 to 2 in across at the top. Tops are wilting from frost.",
+    "storageNotes": "Fresh in fridge 3 months in plastic. Grate and mix with vinegar (1:1) to preserve heat — keeps months refrigerated."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Horseradish",
+      "subCategory": "standard",
+      "notes": "The basic. Hard to source as anything else."
+    }
+  ],
+  "notes": "Plant in a sunken bottomless container or your own corner — left to itself it'll take over the bed via root fragments. ALWAYS grate outdoors or with windows open; oils burn eyes and lungs."
+}

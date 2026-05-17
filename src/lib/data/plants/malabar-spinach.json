@@ -1,0 +1,68 @@
+{
+  "slug": "malabar-spinach",
+  "name": "Malabar spinach",
+  "scientificName": "Basella alba",
+  "category": "leafy-green",
+  "tags": ["warm-season", "heat-loving", "vine", "trellis"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [60, 80],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 95],
+    "minNightTempF": 55,
+    "maxDayTempF": 105,
+    "hardinessZones": [7, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w",
+      "notes": "Soak seed 24 hours; nick the hard coat to speed germination."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait for warm soil and reliably warm nights. Set near a 6 ft trellis."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-1w",
+      "notes": "Pinch leafy tips and young stems. The more you pick, the more it produces."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato"],
+    "bad": []
+  },
+  "pests": ["leaf-miner", "aphid"],
+  "harvest": {
+    "cues": "Leaves thick, glossy, succulent; pick before flowering for best texture. Both green-stem and red-stem cultivars exist.",
+    "storageNotes": "Fridge in damp paper 5 to 7 days. Mucilaginous when cooked (thickens like okra) — good in stews."
+  },
+  "varieties": [
+    {
+      "slug": "red-stem",
+      "name": "Red-stem Malabar",
+      "subCategory": "rubra",
+      "notes": "Striking red stems and green leaves. Slightly stronger flavor."
+    },
+    {
+      "slug": "green",
+      "name": "Green Malabar",
+      "subCategory": "alba",
+      "notes": "All green. Milder, more spinach-like flavor."
+    }
+  ],
+  "notes": "The hot-summer spinach substitute — thrives when regular spinach has long bolted. Vines climb 6 ft+. Doubles as an ornamental on a fence or arbor."
+}

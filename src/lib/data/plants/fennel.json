@@ -1,0 +1,76 @@
+{
+  "slug": "fennel",
+  "name": "Fennel (Florence)",
+  "scientificName": "Foeniculum vulgare var. azoricum",
+  "category": "other",
+  "tags": ["cool-season", "allelopathic", "anise-flavor"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [80, 100],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": 30,
+    "maxDayTempF": 80,
+    "hardinessZones": [4, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Doesn't transplant well — taproot. Or start in deep peat pots."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "To 12 in. Hill soil around the base as bulbs form."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-12w",
+      "to": "FFD-9w",
+      "notes": "Fall is the better season — heat triggers bolting."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD",
+      "notes": "Cut bulb at the soil line when fist-sized. Fronds keep regrowing."
+    }
+  ],
+  "companions": {
+    "good": ["dill (for pollinators)"],
+    "bad": ["tomato", "bean", "cilantro", "basil", "pepper"]
+  },
+  "pests": ["aphid", "swallowtail-caterpillar"],
+  "harvest": {
+    "cues": "Bulb is firm, fist-sized to softball-sized. Cut at the base. Fronds and seed are also edible.",
+    "storageNotes": "Fridge in plastic 1 week. Slice and freeze cooked into stocks; raw fronds don't store well."
+  },
+  "varieties": [
+    {
+      "slug": "zefa-fino",
+      "name": "Zefa Fino",
+      "subCategory": "bolt-resistant",
+      "daysToMaturity": [80, 90],
+      "notes": "Bred for slow bolting. Best for spring sowings."
+    },
+    {
+      "slug": "perfection",
+      "name": "Perfection",
+      "subCategory": "fall",
+      "daysToMaturity": [90, 100],
+      "notes": "Large, white bulbs. Best in fall — bolts fast in heat."
+    }
+  ],
+  "notes": "Allelopathic — inhibits the growth of most other crops. Plant in its own corner away from tomatoes, beans, cilantro, dill. Bolt-prone above 75 F or with any stress."
+}

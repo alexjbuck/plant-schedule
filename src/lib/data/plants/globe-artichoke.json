@@ -1,0 +1,76 @@
+{
+  "slug": "globe-artichoke",
+  "name": "Globe artichoke",
+  "scientificName": "Cynara scolymus",
+  "category": "other",
+  "tags": ["perennial-warm-zones", "long-season", "edible-flower-bud"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [110, 180],
+    "spacing": { "in": 48, "cm": 120 },
+    "rowSpacing": { "in": 60, "cm": 150 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 20,
+    "maxDayTempF": 85,
+    "hardinessZones": [7, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-10w",
+      "to": "LFD-8w",
+      "notes": "Annual varieties (Imperial Star) crop in year 1. Perennial types need 2 weeks of <50 F to trigger bud set ('vernalization')."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Light frost actually helps — exposes seedlings to the cold they need for budding."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+4w",
+      "to": "LFD+10w",
+      "notes": "Heavy feeder. Compost top-dress every 4 to 6 weeks."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+14w",
+      "to": "FFD",
+      "notes": "Cut buds with 2 in of stem when tight; leaves on the bud begin to flare = past prime."
+    }
+  ],
+  "companions": {
+    "good": ["pea", "bean", "cabbage"],
+    "bad": ["fennel"]
+  },
+  "pests": ["aphid", "earwig", "slug"],
+  "harvest": {
+    "cues": "Buds are fist-sized, tight, scales pressed close. Outer scales beginning to flare = harvest now or it's too late.",
+    "storageNotes": "Fridge in plastic 1 week. Stems in a glass of water also work. Buds left to flower produce huge purple thistle blooms (great cut flower) but no more food."
+  },
+  "varieties": [
+    {
+      "slug": "imperial-star",
+      "name": "Imperial Star",
+      "subCategory": "annual",
+      "daysToMaturity": [85, 100],
+      "notes": "Bred to crop in year 1 without vernalization. The choice for zones 6 and below."
+    },
+    {
+      "slug": "green-globe",
+      "name": "Green Globe",
+      "subCategory": "perennial",
+      "daysToMaturity": [150, 180],
+      "notes": "Classic perennial in zones 7+. Crops for 4 to 6 years before replacement."
+    }
+  ],
+  "notes": "Dramatic 3 to 4 ft silver-green plants — earn their space even without buds. Below zone 7, mulch heavily for winter or grow as an annual. Each plant gives 6 to 12 buds in a good year."
+}

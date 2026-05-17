@@ -1,0 +1,70 @@
+{
+  "slug": "scallion",
+  "name": "Scallion",
+  "scientificName": "Allium fistulosum",
+  "category": "allium",
+  "tags": ["cool-season", "succession", "fast"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [50, 75],
+    "spacing": { "in": 1, "cm": 2.5 },
+    "rowSpacing": { "in": 6, "cm": 15 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 75],
+    "minNightTempF": 20,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+3w",
+      "notes": "Sow thick — they don't compete with each other much."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Will overwinter and finish in spring in zones 6+."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+5w",
+      "to": "FFD+2w",
+      "notes": "Pull whole when shafts are pencil thick — or cut tops for chives-style harvest."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "lettuce", "tomato"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["onion-thrips", "onion-fly"],
+  "harvest": {
+    "cues": "Shaft is firm and pencil-thick. Leaves still green and standing.",
+    "storageNotes": "Stems in a jar of water on the counter — keeps a week or two. Roots in damp soil regrow."
+  },
+  "varieties": [
+    {
+      "slug": "evergreen-hardy-white",
+      "name": "Evergreen Hardy White",
+      "subCategory": "bunching",
+      "daysToMaturity": [60, 70],
+      "notes": "Overwinters reliably in zones 5+. The classic."
+    },
+    {
+      "slug": "deep-purple",
+      "name": "Deep Purple",
+      "subCategory": "red-bunching",
+      "daysToMaturity": [60, 75],
+      "notes": "Striking purple-red shaft. Mild flavor."
+    }
+  ],
+  "notes": "Trim cut bunches in a jar of water on the windowsill — they regrow indefinitely for a few cycles. Plant in patches throughout the garden as a pest-confusing border."
+}

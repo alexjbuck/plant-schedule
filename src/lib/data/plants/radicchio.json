@@ -1,0 +1,81 @@
+{
+  "slug": "radicchio",
+  "name": "Radicchio",
+  "scientificName": "Cichorium intybus",
+  "category": "leafy-green",
+  "tags": ["cool-season", "bitter", "italian"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [65, 95],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": 20,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+1w"
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-12w",
+      "to": "FFD-8w",
+      "notes": "Fall is the prize — cool nights are essential for tight heads with deep red color."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD+2w",
+      "notes": "Heads firm and red. Cut at the soil; some types resprout for a second cut."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "carrot", "onion"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug", "leaf-miner"],
+  "harvest": {
+    "cues": "Head firm to squeeze, vibrant red with white veins, before bolt stalk appears.",
+    "storageNotes": "Fridge whole 2 weeks. Excellent grilled — bitterness mellows with char."
+  },
+  "varieties": [
+    {
+      "slug": "chioggia",
+      "name": "Chioggia (Palla Rossa)",
+      "subCategory": "round",
+      "daysToMaturity": [70, 90],
+      "notes": "Classic deep-red ball. The grocery-store radicchio."
+    },
+    {
+      "slug": "treviso",
+      "name": "Treviso Precoce",
+      "subCategory": "long",
+      "daysToMaturity": [80, 95],
+      "notes": "Long elongated head like a romaine. Earlier and milder."
+    },
+    {
+      "slug": "castelfranco",
+      "name": "Castelfranco",
+      "subCategory": "variegated",
+      "daysToMaturity": [85, 95],
+      "notes": "Cream with maroon speckles. The variegata. Beautiful and mild."
+    }
+  ],
+  "notes": "Many varieties need a temperature shift (warm spring, cold fall) to head up tightly — read the seed packet. Cutting the head back to the crown can produce a smaller second head."
+}

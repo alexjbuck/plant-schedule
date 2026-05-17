@@ -1,0 +1,69 @@
+{
+  "slug": "dandelion",
+  "name": "Dandelion (Cultivated)",
+  "scientificName": "Taraxacum officinale / Cichorium intybus",
+  "category": "leafy-green",
+  "tags": ["cool-season", "perennial", "bitter", "medicinal"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 95],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": -20,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Surface-sow; light required."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "FFD",
+      "notes": "Pick outer leaves at 4 to 6 in. Blanch with a clay pot 2 weeks before harvest to sweeten."
+    }
+  ],
+  "companions": {
+    "good": ["chicory", "lettuce"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug"],
+  "harvest": {
+    "cues": "Leaves 4 to 8 in, bright green, before flower stalk emerges. Pre-flower roots are best for roasting (dandelion coffee).",
+    "storageNotes": "Fridge in damp paper 3 to 5 days. Roots: dig, dry, roast at 350 F until brittle, grind for caffeine-free coffee substitute."
+  },
+  "varieties": [
+    {
+      "slug": "italiko-rosso",
+      "name": "Italiko Rosso",
+      "subCategory": "italian-chicory",
+      "daysToMaturity": [60, 70],
+      "notes": "Red-veined dandelion-style chicory. Less bitter than wild dandelion."
+    },
+    {
+      "slug": "ameliore",
+      "name": "Améliore",
+      "subCategory": "french-cultivated",
+      "daysToMaturity": [90, 95],
+      "notes": "Cultivated French dandelion. Broader leaves, milder than wild."
+    }
+  ],
+  "notes": "Cultivated types are milder than lawn weeds. Italian and French traditions treat the leaves as a spring delicacy. Roots make a legitimate coffee substitute. WARNING: pollen and dander allergens; some people react."
+}

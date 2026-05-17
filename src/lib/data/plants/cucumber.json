@@ -1,0 +1,76 @@
+{
+  "slug": "cucumber",
+  "name": "Cucumber",
+  "scientificName": "Cucumis sativus",
+  "category": "cucurbit",
+  "tags": ["warm-season", "vine", "trellis"],
+  "growth": {
+    "daysToGermination": [3, 10],
+    "daysToMaturity": [50, 70],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "high"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait for soil 70 F. Cool soil rots seeds."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "To 12 in apart along a trellis."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+6w",
+      "to": "LFD+7w",
+      "notes": "Compost or balanced fert as fruit sets."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-2w",
+      "notes": "Pick every 1 to 2 days — overripe fruit halts production."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "corn", "radish", "dill"],
+    "bad": ["potato", "sage"]
+  },
+  "pests": ["cucumber-beetle", "squash-bug", "powdery-mildew", "downy-mildew"],
+  "harvest": {
+    "cues": "Pick slicers at 6 to 8 in; picklers at 3 to 4 in. Skin should be firm, glossy, deep green.",
+    "storageNotes": "Fridge 1 week, away from tomatoes and bananas — ethylene yellows them fast."
+  },
+  "varieties": [
+    {
+      "slug": "marketmore",
+      "name": "Marketmore 76",
+      "subCategory": "slicer",
+      "daysToMaturity": [60, 70],
+      "notes": "Disease-tolerant, reliable. The default slicer."
+    },
+    {
+      "slug": "lemon",
+      "name": "Lemon",
+      "subCategory": "slicer-heirloom",
+      "daysToMaturity": [60, 70],
+      "notes": "Round, yellow when ready. Mild, tender skin. Whimsical and prolific."
+    }
+  ],
+  "notes": "Trellis everything you can — saves space, runs straighter fruit, cuts disease pressure. Even mulch keeps fruit clean and slows mildew."
+}

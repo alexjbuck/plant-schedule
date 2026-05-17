@@ -1,0 +1,67 @@
+{
+  "slug": "anise-hyssop",
+  "name": "Anise hyssop",
+  "scientificName": "Agastache foeniculum",
+  "category": "herb",
+  "tags": ["perennial", "pollinator", "drought-tolerant"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [120, 180],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -25,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Surface-sow; light required. Needs cold stratification — refrigerate seeds 2 to 3 weeks first."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD",
+      "notes": "Leaves anytime; flower spikes when half-open for the strongest scent."
+    }
+  ],
+  "companions": {
+    "good": ["squash", "cucumber", "tomato"],
+    "bad": []
+  },
+  "pests": ["powdery-mildew"],
+  "harvest": {
+    "cues": "Leaves bright green and anise-scented. Flower spikes lavender-purple, half-open.",
+    "storageNotes": "Dries beautifully. Petals are edible; sprinkle on salads or steep for tea."
+  },
+  "varieties": [
+    {
+      "slug": "blue-fortune",
+      "name": "Blue Fortune",
+      "subCategory": "sterile-hybrid",
+      "notes": "Long bloom season, doesn't self-seed. Pollinator favorite."
+    },
+    {
+      "slug": "korean-mint",
+      "name": "Korean Mint",
+      "subCategory": "agastache-rugosa",
+      "notes": "Slightly minty-anise. Used in Korean cuisine."
+    }
+  ],
+  "notes": "Bees go wild for it. Native to North American prairies — drought-tolerant once established. Self-seeds prolifically unless you cut flower stalks before seeds set."
+}

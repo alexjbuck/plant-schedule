@@ -1,0 +1,69 @@
+{
+  "slug": "tomatillo",
+  "name": "Tomatillo",
+  "scientificName": "Physalis philadelphica",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "self-incompatible", "transplant"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 36, "cm": 90 },
+    "rowSpacing": { "in": 48, "cm": 120 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "MUST plant at least 2 — self-incompatible, won't set fruit alone."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD",
+      "notes": "Pick when husks split or are filled tightly. Pick paler-green for tartness; let yellow for sweeter."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato", "basil", "marigold"],
+    "bad": ["fennel"]
+  },
+  "pests": ["aphid", "flea-beetle", "three-lined-potato-beetle"],
+  "harvest": {
+    "cues": "Husk is bursting at the seams or has split open. Fruit firm, sticky, vibrant green or yellow.",
+    "storageNotes": "Husks on, paper bag at room temp 2 to 3 weeks. Husked: fridge 1 week."
+  },
+  "varieties": [
+    {
+      "slug": "toma-verde",
+      "name": "Toma Verde",
+      "subCategory": "green",
+      "daysToMaturity": [60, 80],
+      "notes": "Classic green tomatillo. Bright, tart."
+    },
+    {
+      "slug": "purple-de-milpa",
+      "name": "Purple de Milpa",
+      "subCategory": "purple",
+      "daysToMaturity": [70, 90],
+      "notes": "Purple-blushed, smaller, sweeter. Heirloom from Mexico."
+    }
+  ],
+  "notes": "Self-infertile — plant 2+ for fruit set. Sprawls aggressively; cage them or let them roam. Volunteers come back forever once you've grown them once."
+}

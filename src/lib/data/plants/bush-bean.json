@@ -1,0 +1,70 @@
+{
+  "slug": "bush-bean",
+  "name": "Bush bean",
+  "scientificName": "Phaseolus vulgaris",
+  "category": "legume",
+  "tags": ["warm-season", "succession", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [7, 10],
+    "daysToMaturity": [50, 60],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 80],
+    "minNightTempF": 50,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD",
+      "to": "LFD+2w",
+      "notes": "Inoculate seed with rhizobia for best yields on new beds."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+4w",
+      "to": "LFD+6w",
+      "notes": "Succession plant every 2 weeks for fresh beans all summer."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+7w",
+      "to": "FFD-2w",
+      "notes": "Pick at pencil thickness; every 2 to 3 days keeps plants producing."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "cucumber", "corn", "potato"],
+    "bad": ["onion", "garlic", "fennel"]
+  },
+  "pests": ["bean-beetle", "aphid", "rust", "halo-blight"],
+  "harvest": {
+    "cues": "Pods are firm and snap cleanly. Don't wait for bumps — those are over-mature.",
+    "storageNotes": "Fridge 5 to 7 days. Blanch and freeze for longer storage."
+  },
+  "varieties": [
+    {
+      "slug": "provider",
+      "name": "Provider",
+      "subCategory": "snap",
+      "daysToMaturity": [48, 55],
+      "notes": "Cold-tolerant; first beans of summer."
+    },
+    {
+      "slug": "dragon-tongue",
+      "name": "Dragon Tongue",
+      "subCategory": "wax",
+      "daysToMaturity": [55, 65],
+      "notes": "Yellow with purple streaks (fades in cooking). Stunning."
+    }
+  ],
+  "notes": "Don't water until seedlings emerge — wet seed rots. Don't handle beans when wet to avoid spreading disease."
+}

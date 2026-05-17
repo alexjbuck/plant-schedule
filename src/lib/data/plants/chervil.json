@@ -1,0 +1,62 @@
+{
+  "slug": "chervil",
+  "name": "Chervil",
+  "scientificName": "Anthriscus cerefolium",
+  "category": "herb",
+  "tags": ["cool-season", "annual", "shade-tolerant"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 75],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 28,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Bolts hot — succession every 3 weeks until heat hits."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall is the easier season."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+5w",
+      "to": "FFD",
+      "notes": "Snip outer fronds at the base. Cut hard before flowering for a second flush."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "radish", "carrot"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug"],
+  "harvest": {
+    "cues": "Fronds 6+ in, bright green, lacy. Before flower stalk appears.",
+    "storageNotes": "Most delicate of the herbs — fresh only. Add at the end of cooking. Wraps in damp paper towel, fridge 3 days max."
+  },
+  "varieties": [
+    {
+      "slug": "vertissimo",
+      "name": "Vertissimo",
+      "subCategory": "curled",
+      "notes": "Slow to bolt, curly leaves. Best for spring sowings."
+    }
+  ],
+  "notes": "Delicate anise-parsley flavor. Indispensable in French fines herbes (with parsley, chives, tarragon). Loves shade — perfect under taller spring crops."
+}

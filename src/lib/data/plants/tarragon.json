@@ -1,0 +1,56 @@
+{
+  "slug": "tarragon",
+  "name": "Tarragon",
+  "scientificName": "Artemisia dracunculus",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "cuttings-only"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [75, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -10,
+    "maxDayTempF": 90,
+    "hardinessZones": [4, 9]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "ALWAYS get French Tarragon from a cutting or division — true French sets no viable seed. Russian Tarragon is seed-grown but flavorless."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+6w",
+      "to": "FFD-2w",
+      "notes": "Snip leafy tops. Avoid heavy harvest in year 1. Flavor peaks just before flowering."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "eggplant"],
+    "bad": []
+  },
+  "pests": ["powdery-mildew", "rust"],
+  "harvest": {
+    "cues": "Leaves bright green, narrow, soft. Snip whole stems just above a leaf node.",
+    "storageNotes": "Best fresh or preserved in vinegar (classic tarragon vinegar). Drying loses most of the flavor."
+  },
+  "varieties": [
+    {
+      "slug": "french",
+      "name": "French Tarragon",
+      "subCategory": "culinary",
+      "notes": "Real anise-licorice flavor. The only culinary tarragon. Propagate by cuttings or division only."
+    }
+  ],
+  "notes": "Reject anything sold as 'tarragon seed' — it's Russian Tarragon, flavorless. Divide French Tarragon every 3 to 4 years to keep it vigorous. Mulch in zone 4 to overwinter."
+}

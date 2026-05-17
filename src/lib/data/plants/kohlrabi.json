@@ -1,0 +1,73 @@
+{
+  "slug": "kohlrabi",
+  "name": "Kohlrabi",
+  "scientificName": "Brassica oleracea (Gongylodes)",
+  "category": "brassica",
+  "tags": ["cool-season", "fast", "succession"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [45, 60],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+1w",
+      "notes": "Best as a spring or fall crop — bolts in heat."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-1w",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-7w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD",
+      "notes": "Pull at 2 to 3 in across. Larger varieties (Superschmelz) stay tender to softball size."
+    }
+  ],
+  "companions": {
+    "good": ["beet", "onion", "cucumber"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "flea-beetle", "aphid"],
+  "harvest": {
+    "cues": "Bulb is tennis-ball-sized, smooth. Cut at the base; peel before eating.",
+    "storageNotes": "Top, fridge 2 to 4 weeks. Surprisingly long storage for a brassica."
+  },
+  "varieties": [
+    {
+      "slug": "early-white-vienna",
+      "name": "Early White Vienna",
+      "subCategory": "early",
+      "daysToMaturity": [50, 60]
+    },
+    {
+      "slug": "superschmelz",
+      "name": "Superschmelz",
+      "subCategory": "giant",
+      "daysToMaturity": [60, 70],
+      "notes": "Stays tender at 8 to 10 in across. Plant for fall."
+    }
+  ],
+  "notes": "Underrated. Raw it's like crisp apple-broccoli; cooked it's like turnip but milder. Don't bother indoor-starting — direct-sow does fine."
+}

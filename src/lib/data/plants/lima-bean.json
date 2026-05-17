@@ -1,0 +1,64 @@
+{
+  "slug": "lima-bean",
+  "name": "Lima bean",
+  "scientificName": "Phaseolus lunatus",
+  "category": "legume",
+  "tags": ["warm-season", "heat-loving", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [75, 95],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 1.5, "cm": 4 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [5, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Soil MUST be 65+ F or seeds rot. Wait longer than for bush beans."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+11w",
+      "to": "FFD-2w",
+      "notes": "Pick fresh when seeds bulge but pods still green. Or let dry on plant for dried limas."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "cucumber", "potato"],
+    "bad": ["onion", "garlic", "fennel"]
+  },
+  "pests": ["bean-beetle", "stink-bug", "spider-mite"],
+  "harvest": {
+    "cues": "Pods plump, seeds visible through the wall. Pods should still snap if pulled.",
+    "storageNotes": "Fresh: fridge 5 days, or shell and freeze. Dried: shell at full pod-brown, store airtight years."
+  },
+  "varieties": [
+    {
+      "slug": "fordhook-242",
+      "name": "Fordhook 242",
+      "subCategory": "bush",
+      "daysToMaturity": [75, 90],
+      "notes": "Standard butter bean. Heat-tolerant bush type."
+    },
+    {
+      "slug": "christmas",
+      "name": "Christmas",
+      "subCategory": "pole-heirloom",
+      "daysToMaturity": [85, 95],
+      "notes": "Maroon-and-white speckled. Sprawling pole vine. Striking dried bean."
+    }
+  ],
+  "notes": "Needs hot summers — disappointing harvests in cool coastal climates. Pole types yield twice the bush types but need a 6 ft trellis."
+}

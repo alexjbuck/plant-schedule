@@ -1,0 +1,56 @@
+{
+  "slug": "lovage",
+  "name": "Lovage",
+  "scientificName": "Levisticum officinale",
+  "category": "herb",
+  "tags": ["perennial", "tall", "celery-substitute"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [365, 730],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -30,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-2w",
+      "to": "LFD+4w",
+      "notes": "Or transplant a division — faster start. Pick a permanent spot; plants reach 5 to 7 ft tall."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Year 1: leaves only. Year 2+: leaves freely; cut flower stalks to keep flavor in the leaves."
+    }
+  ],
+  "companions": {
+    "good": ["potato", "bean", "tomato"],
+    "bad": []
+  },
+  "pests": ["aphid", "leaf-miner"],
+  "harvest": {
+    "cues": "Hollow stems and bright green leaves smell intensely of celery and yeast. Stems 12+ in.",
+    "storageNotes": "Fresh leaves wilt fast — chop and freeze in cubes for soups. Roots can be dried and ground as seasoning."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Lovage",
+      "subCategory": "standard",
+      "notes": "The one and only. Tall, celery-flavored, perennial."
+    }
+  ],
+  "notes": "Strong celery-meets-curry flavor — use sparingly. Place at the back of an herb bed; gets head-tall by summer. Hollow stems make natural straws (use small ones in Bloody Marys)."
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "potato",
+  "name": "Potato",
+  "scientificName": "Solanum tuberosum",
+  "category": "tuber",
+  "tags": ["cool-season", "hilling", "long-storage"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [70, 120],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 4, "cm": 10 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 30,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+1w",
+      "notes": "Plant seed pieces with at least one 'eye' each, cut-side down."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+4w",
+      "to": "LFD+6w",
+      "notes": "Hill up to 8 in as plants grow. Tubers form on stems above seed piece."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "LFD+14w",
+      "notes": "New potatoes after flowering; storage potatoes 2 to 3 weeks after vines die back."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "corn", "horseradish", "cabbage"],
+    "bad": ["tomato", "cucumber", "sunflower"]
+  },
+  "pests": ["colorado-potato-beetle", "wireworm", "scab", "late-blight"],
+  "harvest": {
+    "cues": "Skin doesn't rub off easily — that's the cure indicator. For new potatoes, harvest while skins are still thin and flaky.",
+    "storageNotes": "Cure 1 to 2 weeks at 60 F dark, then store at 38 to 45 F dark and humid. Don't wash before storage. Keeps 4 to 6 months."
+  },
+  "varieties": [
+    {
+      "slug": "yukon-gold",
+      "name": "Yukon Gold",
+      "subCategory": "yellow-fleshed",
+      "daysToMaturity": [70, 90],
+      "notes": "All-purpose. Stores well, buttery flesh."
+    },
+    {
+      "slug": "kennebec",
+      "name": "Kennebec",
+      "subCategory": "white",
+      "daysToMaturity": [80, 100],
+      "notes": "Heavy yields. Best frying potato."
+    },
+    {
+      "slug": "russian-banana",
+      "name": "Russian Banana",
+      "subCategory": "fingerling",
+      "daysToMaturity": [105, 120],
+      "notes": "Yellow fingerling, excellent roasted. Long season."
+    }
+  ],
+  "notes": "Always use certified seed potatoes — grocery-store potatoes carry disease. Hill or mulch deeply to keep tubers covered; sunlight turns them green and bitter (solanine)."
+}

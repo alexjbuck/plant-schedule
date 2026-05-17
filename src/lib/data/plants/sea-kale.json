@@ -1,0 +1,62 @@
+{
+  "slug": "sea-kale",
+  "name": "Sea kale",
+  "scientificName": "Crambe maritima",
+  "category": "brassica",
+  "tags": ["perennial", "long-lived", "blanchable", "coastal-native"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [730, 1095],
+    "spacing": { "in": 30, "cm": 75 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": -20,
+    "maxDayTempF": 80,
+    "hardinessZones": [4, 9]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Plant root cuttings (thongs) 2 in deep. Faster than seed. Pick a permanent spot — lives 10+ years."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "Heavy compost top-dress each spring."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "LFD+6w",
+      "notes": "Year 3+: cover with a clay pot in early spring; harvest blanched white shoots 6 to 8 weeks later. Don't harvest in year 1 or 2."
+    }
+  ],
+  "companions": {
+    "good": ["asparagus", "rhubarb"],
+    "bad": []
+  },
+  "pests": ["cabbage-worm", "flea-beetle", "slug"],
+  "harvest": {
+    "cues": "Shoots 6 to 10 in tall under the cover, white and tender. Cut at the base; uncover to let plant photosynthesize.",
+    "storageNotes": "Best fresh — turns green and bitter on exposure to light within hours. Wrapped tightly in foil, fridge 2 days."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Sea Kale",
+      "subCategory": "wild-derived",
+      "notes": "The traditional Victorian-garden vegetable. Blanched stems taste like a cross between asparagus and hazelnut."
+    }
+  ],
+  "notes": "Victorian luxury crop, nearly extinct from gardens. Cover crowns in late winter with terracotta pots, straw, or buckets — exclude light. Harvested young shoots are an exquisite delicacy. Plants get massive (3 to 4 ft) with cabbage-like flowers and seedpods."
+}

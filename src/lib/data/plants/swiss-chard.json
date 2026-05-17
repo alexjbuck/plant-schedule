@@ -1,0 +1,69 @@
+{
+  "slug": "swiss-chard",
+  "name": "Swiss chard",
+  "scientificName": "Beta vulgaris (Cicla)",
+  "category": "leafy-green",
+  "tags": ["cool-season", "heat-tolerant", "long-harvest"],
+  "growth": {
+    "daysToGermination": [5, 14],
+    "daysToMaturity": [50, 60],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 75],
+    "minNightTempF": 25,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+2w",
+      "notes": "Soak seed clusters 8 hours; thin to one plant."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-1w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+5w",
+      "to": "FFD+4w",
+      "notes": "Pick outer stalks at the base; plant keeps producing through frost."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "onion", "cabbage", "lettuce"],
+    "bad": []
+  },
+  "pests": ["leaf-miner", "aphid", "cercospora-leaf-spot"],
+  "harvest": {
+    "cues": "Outer leaves are 8 to 12 in. Cut at the base 1 in above the soil; inner crown regenerates.",
+    "storageNotes": "Wrap in damp paper towel, fridge 5 to 7 days. Stems and leaves can be cooked separately — stems take 2 to 3 extra minutes."
+  },
+  "varieties": [
+    {
+      "slug": "fordhook-giant",
+      "name": "Fordhook Giant",
+      "subCategory": "white-stem",
+      "daysToMaturity": [50, 60],
+      "notes": "Classic large white-stem. Bolt-resistant."
+    },
+    {
+      "slug": "bright-lights",
+      "name": "Bright Lights",
+      "subCategory": "rainbow",
+      "daysToMaturity": [55, 60],
+      "notes": "Mixed yellow/red/orange/pink stems. Striking, slightly less productive."
+    }
+  ],
+  "notes": "One of the longest-producing greens — single planting can feed you from late spring through hard frost. More heat-tolerant than spinach."
+}

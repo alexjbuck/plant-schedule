@@ -1,0 +1,82 @@
+{
+  "slug": "eggplant",
+  "name": "Eggplant",
+  "scientificName": "Solanum melongena",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "transplant", "heat-loving"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 60,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-10w",
+      "to": "LFD-8w",
+      "notes": "Bottom heat 80 to 85 F. Slowest of the solanums to germinate."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "Hates cold soil — wait for 65+ F and overnight lows over 60 F."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+7w",
+      "to": "LFD+9w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD-2w",
+      "notes": "Pick young, glossy. Dull skin = past prime, bitter."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "bean", "marigold"],
+    "bad": ["fennel"]
+  },
+  "pests": ["flea-beetle", "colorado-potato-beetle", "spider-mite", "verticillium-wilt"],
+  "harvest": {
+    "cues": "Skin is glossy and presses back when squeezed gently. Cut with shears, leaving 1 in of stem.",
+    "storageNotes": "Counter at 50 to 55 F — fridge causes pitting. Use within a week."
+  },
+  "varieties": [
+    {
+      "slug": "black-beauty",
+      "name": "Black Beauty",
+      "subCategory": "italian",
+      "daysToMaturity": [75, 85],
+      "notes": "Classic teardrop. Hold off harvest until 6 in."
+    },
+    {
+      "slug": "rosa-bianca",
+      "name": "Rosa Bianca",
+      "subCategory": "italian-heirloom",
+      "daysToMaturity": [75, 88],
+      "notes": "Pink and white, mild and creamy."
+    },
+    {
+      "slug": "ichiban",
+      "name": "Ichiban",
+      "subCategory": "japanese",
+      "daysToMaturity": [60, 75],
+      "notes": "Slender purple, prolific. Doesn't need peeling."
+    }
+  ],
+  "notes": "Heat-lover; below 60 F nights and growth stalls. Row covers off until flowering. Stake or cage — fruit-loaded plants tip."
+}

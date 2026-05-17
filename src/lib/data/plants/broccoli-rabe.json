@@ -1,0 +1,70 @@
+{
+  "slug": "broccoli-rabe",
+  "name": "Broccoli rabe (Rapini)",
+  "scientificName": "Brassica rapa (Ruvo)",
+  "category": "brassica",
+  "tags": ["cool-season", "fast", "bitter", "italian"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [40, 70],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": 20,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Bolts hot — spring harvest must be in by early summer. Or skip spring and run a fall crop."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall is the better season — cool nights are essential for tender, mild flowers."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD",
+      "notes": "Cut whole plant or 6-in shoots when flower buds form but before they fully open. Yellow flowers = past prime."
+    }
+  ],
+  "companions": {
+    "good": ["beet", "onion", "potato"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "flea-beetle", "aphid"],
+  "harvest": {
+    "cues": "Slender stems with leaves and tight flower buds. Some open yellow flowers OK; mostly-open is too late.",
+    "storageNotes": "Fridge wrapped in damp paper 3 to 5 days. Sauté with garlic and olive oil — the classic Italian preparation."
+  },
+  "varieties": [
+    {
+      "slug": "spring-raab",
+      "name": "Spring Raab",
+      "subCategory": "fast",
+      "daysToMaturity": [40, 45],
+      "notes": "Fastest to maturity. Best for narrow spring window."
+    },
+    {
+      "slug": "sessantina-grossa",
+      "name": "Sessantina Grossa",
+      "subCategory": "traditional",
+      "daysToMaturity": [60, 70],
+      "notes": "Italian heirloom. More leaves, larger plants. Best for fall."
+    }
+  ],
+  "notes": "Not actually a broccoli — a turnip relative grown for flower buds. Strong, peppery, slightly bitter. Blanch 1 minute before sautéing if the bitterness is too much."
+}

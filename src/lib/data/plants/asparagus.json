@@ -1,0 +1,68 @@
+{
+  "slug": "asparagus",
+  "name": "Asparagus",
+  "scientificName": "Asparagus officinalis",
+  "category": "other",
+  "tags": ["perennial", "long-lived", "patience"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [730, 1095],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 48, "cm": 120 },
+    "depth": { "in": 6, "cm": 15 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -25,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 8]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Plant 1-year-old crowns 6 in deep in a permanent bed — they'll produce for 15 to 20 years."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Compost top-dress every spring."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "LFD+8w",
+      "notes": "NO harvest year 1 or 2. Light harvest year 3 (2 weeks). Full harvest year 4+ (6 to 8 weeks)."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "parsley", "basil"],
+    "bad": ["onion", "garlic"]
+  },
+  "pests": ["asparagus-beetle", "fusarium-wilt", "rust"],
+  "harvest": {
+    "cues": "Spears 6 to 8 in tall, pencil-thick, before tips loosen. Snap or cut at the soil line.",
+    "storageNotes": "Stems in a jar of water in the fridge 1 week. Best fresh — sugar converts to starch within hours."
+  },
+  "varieties": [
+    {
+      "slug": "jersey-knight",
+      "name": "Jersey Knight",
+      "subCategory": "all-male-hybrid",
+      "notes": "All-male = no seedy volunteers. Vigorous, rust-resistant. Heavy yields."
+    },
+    {
+      "slug": "purple-passion",
+      "name": "Purple Passion",
+      "subCategory": "purple",
+      "notes": "Purple spears, sweeter and less fibrous. Color fades when cooked."
+    }
+  ],
+  "notes": "Commit to a permanent spot — beds last 15 to 20+ years. Cut down dead fronds AFTER they brown in fall to let energy return to crowns. Mulch heavily annually."
+}

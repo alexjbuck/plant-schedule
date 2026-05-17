@@ -1,0 +1,71 @@
+{
+  "slug": "amaranth",
+  "name": "Amaranth",
+  "scientificName": "Amaranthus spp.",
+  "category": "leafy-green",
+  "tags": ["warm-season", "heat-loving", "dual-purpose"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [50, 110],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 50,
+    "maxDayTempF": 100,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "Wait for warm soil. Surface-sow; tiny seeds need light."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+6w",
+      "to": "FFD-1w",
+      "notes": "Leaves: when 4 to 8 in. Grain: cut whole heads when seeds rub free with thumb."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "potato", "onion"],
+    "bad": []
+  },
+  "pests": ["flea-beetle", "aphid", "tarnished-plant-bug"],
+  "harvest": {
+    "cues": "Leaves: glossy, 4 to 8 in, before flower stalks. Grain: heads drying and brown; rub seeds free.",
+    "storageNotes": "Leaves: fridge 3 to 5 days. Grain: dry, winnow, store in airtight jars for years."
+  },
+  "varieties": [
+    {
+      "slug": "red-leaf-vegetable",
+      "name": "Red Leaf",
+      "subCategory": "leaf",
+      "daysToMaturity": [50, 70],
+      "notes": "Deep red leaves. Cook like spinach, holds color. Strong earthy flavor."
+    },
+    {
+      "slug": "golden-grain",
+      "name": "Golden Grain",
+      "subCategory": "grain",
+      "daysToMaturity": [100, 120],
+      "notes": "Bred for grain. Tall (5 to 6 ft) with massive seed heads, white-cream kernels."
+    },
+    {
+      "slug": "love-lies-bleeding",
+      "name": "Love-Lies-Bleeding",
+      "subCategory": "ornamental-grain",
+      "daysToMaturity": [90, 110],
+      "notes": "Dramatic dangling crimson tassels. Edible grain, but mostly grown for the spectacle."
+    }
+  ],
+  "notes": "Heat-lover, drought-tolerant once established. Self-seeds aggressively — let one head shatter and you'll have volunteers everywhere. Leaves are higher in protein and minerals than most greens."
+}

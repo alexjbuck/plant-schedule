@@ -1,0 +1,61 @@
+{
+  "slug": "winter-savory",
+  "name": "Winter savory",
+  "scientificName": "Satureja montana",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "mediterranean", "evergreen"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [75, 90],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 80],
+    "minNightTempF": -10,
+    "maxDayTempF": 95,
+    "hardinessZones": [5, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Slow to germinate. Easier from cuttings or division from an established plant."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Snip stem tips; cut hard after flowering to keep tight."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "onion"],
+    "bad": []
+  },
+  "pests": ["spider-mite"],
+  "harvest": {
+    "cues": "Stems 4 to 6 in, leaves dark green, leathery. Strongest flavor just before flowering.",
+    "storageNotes": "Dries excellently. Stronger flavor than summer savory; use sparingly."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Winter Savory",
+      "subCategory": "culinary",
+      "notes": "Pungent, almost thyme-like, with savory's distinct pepper-bite. Stays evergreen in zone 7+."
+    }
+  ],
+  "notes": "Hardier and stronger-flavored than summer savory. Wants lean, gravelly, alkaline soil — kills in heavy clay or with overwatering. Trim hard each spring to prevent woody growth."
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "strawberry",
+  "name": "Strawberry",
+  "scientificName": "Fragaria × ananassa",
+  "category": "other",
+  "tags": ["perennial", "everbearing-or-junebearing", "runners"],
+  "growth": {
+    "daysToGermination": [14, 30],
+    "daysToMaturity": [110, 270],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -20,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD+4w",
+      "notes": "Plant crowns AT soil line — buried crowns rot, exposed roots dry. Pinch flowers year 1 for stronger plants."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD-2w",
+      "to": "LFD+4w",
+      "notes": "Compost top-dress in spring; again after fruiting."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD-4w",
+      "notes": "June-bearers: 3-week burst in early summer. Everbearers: smaller picks all season."
+    }
+  ],
+  "companions": {
+    "good": ["spinach", "lettuce", "thyme", "borage"],
+    "bad": ["brassicas", "fennel"]
+  },
+  "pests": ["slug", "strawberry-weevil", "gray-mold", "leaf-spot"],
+  "harvest": {
+    "cues": "Fully red, slight give, comes off the cap with a gentle twist. Pick early morning for best flavor.",
+    "storageNotes": "Fridge unwashed 3 to 5 days. Freeze whole on a tray, then bag — best for smoothies, jam."
+  },
+  "varieties": [
+    {
+      "slug": "honeoye",
+      "name": "Honeoye",
+      "subCategory": "june-bearing",
+      "notes": "Large early berries. Reliable in cold climates."
+    },
+    {
+      "slug": "albion",
+      "name": "Albion",
+      "subCategory": "day-neutral",
+      "notes": "Crops all summer. Firm, transports well, classic 'store' shape."
+    },
+    {
+      "slug": "alpine",
+      "name": "Alpine",
+      "subCategory": "fraises-des-bois",
+      "notes": "Tiny intensely fragrant berries. No runners — comes true from seed. Edges, borders, containers."
+    }
+  ],
+  "notes": "Renew the patch every 3 to 4 years — yields drop. Mulch with straw to keep fruit clean and slow gray mold. Cover with bird netting at first blush."
+}

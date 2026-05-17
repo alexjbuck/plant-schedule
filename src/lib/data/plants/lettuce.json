@@ -1,0 +1,82 @@
+{
+  "slug": "lettuce",
+  "name": "Lettuce",
+  "scientificName": "Lactuca sativa",
+  "category": "leafy-green",
+  "tags": ["cool-season", "succession", "shade-tolerant"],
+  "growth": {
+    "daysToGermination": [5, 14],
+    "daysToMaturity": [30, 60],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": 28,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Surface-sow; light helps germination. Succession every 2 weeks."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Eat the thinnings as microgreens."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-1w",
+      "to": "LFD+6w",
+      "notes": "Cut-and-come-again from outer leaves for weeks."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-8w",
+      "to": "FFD-5w",
+      "notes": "Fall planting once heat breaks. Sweeter in cool weather."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "radish", "strawberry", "chive"],
+    "bad": ["broccoli"]
+  },
+  "pests": ["aphid", "slug", "bolting", "tip-burn"],
+  "harvest": {
+    "cues": "Cut outer leaves at 4 in; or wait for whole-head firmness on butterhead/romaine.",
+    "storageNotes": "Wash, spin dry, store in a sealed container with a paper towel. Up to 1 week."
+  },
+  "varieties": [
+    {
+      "slug": "buttercrunch",
+      "name": "Buttercrunch",
+      "subCategory": "butterhead",
+      "daysToMaturity": [50, 60]
+    },
+    {
+      "slug": "salad-bowl",
+      "name": "Salad Bowl",
+      "subCategory": "looseleaf",
+      "daysToMaturity": [40, 50],
+      "notes": "Cut-and-come-again champion."
+    },
+    {
+      "slug": "rouge-d-hiver",
+      "name": "Rouge d'Hiver",
+      "subCategory": "romaine",
+      "daysToMaturity": [55, 65],
+      "notes": "Cold-hardy heirloom romaine, bronze tips."
+    }
+  ],
+  "notes": "Bolt-prone above 80 F. Provide shade cloth or interplant with taller crops for summer succession."
+}

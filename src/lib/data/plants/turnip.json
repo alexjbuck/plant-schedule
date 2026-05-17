@@ -1,0 +1,74 @@
+{
+  "slug": "turnip",
+  "name": "Turnip",
+  "scientificName": "Brassica rapa (Rapa)",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "edible-greens", "fast"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [40, 60],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": 20,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD-1w"
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Thinnings make excellent salad greens."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall crop is sweeter and stores better."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+3w",
+      "to": "FFD",
+      "notes": "Pull spring crop at golf-ball size; fall crop can grow larger."
+    }
+  ],
+  "companions": {
+    "good": ["pea", "lettuce", "cabbage"],
+    "bad": ["potato"]
+  },
+  "pests": ["flea-beetle", "root-maggot", "aphid"],
+  "harvest": {
+    "cues": "Roots 1 to 3 in across — bigger gets woody. Greens at hand-size; both are edible.",
+    "storageNotes": "Top, fridge 2 to 4 weeks. Cellars at 32 to 35 F: months."
+  },
+  "varieties": [
+    {
+      "slug": "purple-top-white-globe",
+      "name": "Purple Top White Globe",
+      "subCategory": "standard",
+      "daysToMaturity": [55, 65]
+    },
+    {
+      "slug": "hakurei",
+      "name": "Hakurei",
+      "subCategory": "japanese-salad",
+      "daysToMaturity": [38, 50],
+      "notes": "Pure white, sweet enough to eat raw. Excellent greens too."
+    }
+  ],
+  "notes": "Often overlooked but one of the fastest, most reliable cool-season crops. Hakurei is a revelation if you only know storage turnips."
+}

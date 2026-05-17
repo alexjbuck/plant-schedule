@@ -1,0 +1,74 @@
+{
+  "slug": "summer-squash",
+  "name": "Summer squash",
+  "scientificName": "Cucurbita pepo",
+  "category": "cucurbit",
+  "tags": ["warm-season", "prolific"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [45, 60],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 48, "cm": 120 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Two plants per hill. Loves heat."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+3w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+7w",
+      "to": "FFD-1w",
+      "notes": "Daily picking through peak. Fruit grows fast — never let one hide."
+    }
+  ],
+  "companions": {
+    "good": ["nasturtium", "bean", "corn", "radish"],
+    "bad": ["potato"]
+  },
+  "pests": ["squash-bug", "squash-vine-borer", "cucumber-beetle", "powdery-mildew"],
+  "harvest": {
+    "cues": "Zucchini and yellow squash at 6 to 8 in; pattypans at 3 to 4 in. Larger means seedy and bitter.",
+    "storageNotes": "Fridge crisper 1 week. Freeze shredded for breads."
+  },
+  "varieties": [
+    {
+      "slug": "black-beauty",
+      "name": "Black Beauty",
+      "subCategory": "zucchini",
+      "daysToMaturity": [50, 60]
+    },
+    {
+      "slug": "yellow-crookneck",
+      "name": "Yellow Crookneck",
+      "subCategory": "yellow-squash",
+      "daysToMaturity": [50, 60]
+    },
+    {
+      "slug": "pattypan",
+      "name": "Pattypan",
+      "subCategory": "scallop",
+      "daysToMaturity": [45, 55],
+      "notes": "UFO-shaped. Best picked small."
+    }
+  ],
+  "notes": "Plant a second succession 6 weeks after the first if vine borers wipe out the original. Female flowers are great fried."
+}

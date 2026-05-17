@@ -1,0 +1,81 @@
+{
+  "slug": "basil",
+  "name": "Basil",
+  "scientificName": "Ocimum basilicum",
+  "category": "herb",
+  "tags": ["warm-season", "annual", "companion-plant"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait — basil collapses at 50 F. Hard to recover."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+6w",
+      "to": "FFD-1w",
+      "notes": "Pinch flower buds religiously. Cut stems above a leaf pair to branch out."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "pepper", "asparagus", "oregano"],
+    "bad": ["rue", "sage"]
+  },
+  "pests": ["downy-mildew", "japanese-beetle", "aphid", "fusarium-wilt"],
+  "harvest": {
+    "cues": "Leaves are bright green, no flowers. Strip whole stems when plant is 6+ in tall.",
+    "storageNotes": "Stems in water on the counter (not the fridge — chill damage). Freeze pureed in olive oil for winter."
+  },
+  "varieties": [
+    {
+      "slug": "genovese",
+      "name": "Genovese",
+      "subCategory": "sweet-italian",
+      "daysToMaturity": [60, 75],
+      "notes": "Classic pesto basil. Large smooth leaves."
+    },
+    {
+      "slug": "thai",
+      "name": "Thai",
+      "subCategory": "asian",
+      "daysToMaturity": [60, 75],
+      "notes": "Anise-clove flavor, sturdy in heat, purple stems."
+    },
+    {
+      "slug": "purple-ruffles",
+      "name": "Purple Ruffles",
+      "subCategory": "ornamental",
+      "daysToMaturity": [70, 85],
+      "notes": "Deep purple frilly leaves. Striking, but slower-growing."
+    }
+  ],
+  "notes": "Plant heavily — you need a lot for pesto. Successions help; downy mildew kills late-summer crops in humid regions. Look for DMR (downy mildew resistant) genetics."
+}

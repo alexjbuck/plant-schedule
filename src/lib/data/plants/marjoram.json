@@ -1,0 +1,62 @@
+{
+  "slug": "marjoram",
+  "name": "Marjoram",
+  "scientificName": "Origanum majorana",
+  "category": "herb",
+  "tags": ["perennial-in-warm-zones", "mediterranean", "drought-tolerant"],
+  "growth": {
+    "daysToGermination": [8, 14],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [65, 80],
+    "minNightTempF": 30,
+    "maxDayTempF": 95,
+    "hardinessZones": [7, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Surface-sow; tiny seeds need light. Slow to germinate."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "More tender than oregano — wait for warm soil."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Cut just before flowering for peak flavor; trim by half for a second flush."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "tomato", "pepper"],
+    "bad": []
+  },
+  "pests": ["aphid", "spider-mite"],
+  "harvest": {
+    "cues": "Stems 6 in, leaves small, gray-green, soft. Bunches of buds on stem tips just opening.",
+    "storageNotes": "Dries beautifully — hang bundles in shade. Slightly sweeter than oregano dried."
+  },
+  "varieties": [
+    {
+      "slug": "sweet-marjoram",
+      "name": "Sweet Marjoram",
+      "subCategory": "culinary",
+      "notes": "The cooking marjoram. Sweet, balsamic, more delicate than oregano."
+    }
+  ],
+  "notes": "Grow as an annual below zone 7. Often called 'sweet oregano' — milder, sweeter, better in delicate dishes. Excellent with poultry and eggs."
+}

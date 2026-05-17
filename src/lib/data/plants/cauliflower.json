@@ -1,0 +1,87 @@
+{
+  "slug": "cauliflower",
+  "name": "Cauliflower",
+  "scientificName": "Brassica oleracea (Botrytis)",
+  "category": "brassica",
+  "tags": ["cool-season", "transplant", "fussy"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [55, 80],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [60, 70],
+    "minNightTempF": 30,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-7w",
+      "to": "LFD-5w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-3w",
+      "to": "LFD-1w"
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Steady moisture and feeding — any stress and heads stay small ('buttoning')."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-14w",
+      "to": "FFD-12w",
+      "notes": "Fall is the easier season; cool ripening = clean white heads."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Cut at the base when curd is 6 to 8 in and tight. Once florets separate, it's past."
+    }
+  ],
+  "companions": {
+    "good": ["onion", "celery", "potato", "beet"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "aphid", "flea-beetle", "clubroot"],
+  "harvest": {
+    "cues": "Head is 6 to 8 in across, curds tight. Yellowing means too late.",
+    "storageNotes": "Fridge whole 1 week. Blanch florets and freeze for longer."
+  },
+  "varieties": [
+    {
+      "slug": "snowball-y",
+      "name": "Snowball Y Improved",
+      "subCategory": "white",
+      "daysToMaturity": [60, 75],
+      "notes": "Classic self-blanching. Reliable."
+    },
+    {
+      "slug": "graffiti",
+      "name": "Graffiti",
+      "subCategory": "purple",
+      "daysToMaturity": [75, 85],
+      "notes": "Purple curds, no blanching needed. Color fades when cooked."
+    },
+    {
+      "slug": "cheddar",
+      "name": "Cheddar",
+      "subCategory": "orange",
+      "daysToMaturity": [60, 70],
+      "notes": "Bright orange, 25x the beta-carotene of white. Color holds when cooked."
+    }
+  ],
+  "notes": "Tie outer leaves over white-variety heads to blanch (keep them white) once the curd is silver-dollar sized. Purple and orange types don't need blanching."
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "claytonia",
+  "name": "Claytonia (Miner's lettuce)",
+  "scientificName": "Claytonia perfoliata",
+  "category": "leafy-green",
+  "tags": ["cool-season", "frost-hardy", "shade-tolerant", "native"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [40, 60],
+    "spacing": { "in": 3, "cm": 8 },
+    "rowSpacing": { "in": 6, "cm": 15 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [45, 65],
+    "minNightTempF": 10,
+    "maxDayTempF": 70,
+    "hardinessZones": [4, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-4w",
+      "notes": "Cool-weather lover; best as a fall/winter crop. Refrigerate seed for 2 weeks first to break dormancy."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-4w",
+      "to": "LFD+4w",
+      "notes": "Cut whole rosettes or snip individual leaves with their distinctive perfoliate stem-disks."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "spinach", "radish"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug"],
+  "harvest": {
+    "cues": "Heart-shaped lower leaves and perfoliate stem leaves; small white flowers in spring.",
+    "storageNotes": "Fridge in damp paper 3 to 5 days. Best fresh — succulent, mild spinach flavor."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Claytonia",
+      "subCategory": "wild-edible",
+      "notes": "Native to the Pacific Northwest. One of the few salad greens that thrives in shade."
+    }
+  ],
+  "notes": "Self-seeds prolifically — let one patch flower and you'll have winter salads forever. Tolerates more shade than almost any salad green. Mild, succulent, slightly mineral flavor."
+}

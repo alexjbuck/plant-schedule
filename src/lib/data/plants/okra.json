@@ -1,0 +1,70 @@
+{
+  "slug": "okra",
+  "name": "Okra",
+  "scientificName": "Abelmoschus esculentus",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "heat-loving", "long-harvest"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [55, 70],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 95],
+    "minNightTempF": 60,
+    "maxDayTempF": 105,
+    "hardinessZones": [5, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-3w",
+      "to": "LFD-1w",
+      "notes": "Optional in zones 6 and below. Soak seeds 12 hours first."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait for soil 65+ F. Cold soil rots seeds."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-1w",
+      "notes": "Pick every 1 to 2 days — pods get tough fast. Wear long sleeves; spines irritate."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "eggplant", "basil", "melon"],
+    "bad": []
+  },
+  "pests": ["aphid", "stink-bug", "root-knot-nematode", "fusarium-wilt"],
+  "harvest": {
+    "cues": "Pods 3 to 4 in long, firm, snap cleanly. Over-mature pods turn woody and stop production.",
+    "storageNotes": "Fridge in paper bag 3 to 5 days. Slice and freeze, or pickle the small pods whole."
+  },
+  "varieties": [
+    {
+      "slug": "clemson-spineless",
+      "name": "Clemson Spineless",
+      "subCategory": "standard",
+      "daysToMaturity": [55, 65],
+      "notes": "The classic spineless okra. Easier on the hands."
+    },
+    {
+      "slug": "burgundy",
+      "name": "Burgundy",
+      "subCategory": "red",
+      "daysToMaturity": [60, 70],
+      "notes": "Deep red pods (turn green when cooked). Ornamental, equally productive."
+    }
+  ],
+  "notes": "Loves heat. Plants get 5 to 8 ft tall — give them space. Pick under-ripe pods religiously; one over-mature pod halts the whole branch."
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "stevia",
+  "name": "Stevia",
+  "scientificName": "Stevia rebaudiana",
+  "category": "herb",
+  "tags": ["warm-season", "perennial-warm-zones", "sweetener"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [100, 120],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [8, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-10w",
+      "to": "LFD-8w",
+      "notes": "Surface-sow; light required. Germination is low (30 to 50%) — overplant. Or skip seed and buy a plant."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait for warm soil and reliable nights."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD",
+      "notes": "Pick whole stems just before flowering — sweetness peaks. Cut back hard for a second flush."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato"],
+    "bad": []
+  },
+  "pests": ["aphid", "spider-mite"],
+  "harvest": {
+    "cues": "Plants 18 to 24 in tall, buds forming. Leaves are sweet at any stage but peak right before flowering.",
+    "storageNotes": "Dry whole stems in shade; powder dried leaves in a coffee grinder. 1/4 tsp powder = 1 tbsp sugar."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Stevia",
+      "subCategory": "culinary",
+      "notes": "Single cultivar in most garden seed. Vegetative propagation gives better-tasting plants than seed."
+    }
+  ],
+  "notes": "Below zone 8 grow as an annual or overwinter indoors. Leaves are 30 to 40x sweeter than sugar by weight; small amount goes very far. Some people taste a licorice or bitter note — try a leaf before planting a big patch."
+}

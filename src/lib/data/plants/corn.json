@@ -1,0 +1,76 @@
+{
+  "slug": "corn",
+  "name": "Sweet corn",
+  "scientificName": "Zea mays",
+  "category": "other",
+  "tags": ["warm-season", "wind-pollinated", "block-planting"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [65, 95],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 1.5, "cm": 4 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Plant in blocks of at least 4 rows for pollination. Soil must be 60+ F."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "To 12 in apart."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+5w",
+      "to": "LFD+7w",
+      "notes": "Nitrogen at knee-high; again at tasseling."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-2w",
+      "notes": "Silks brown and dry; kernel milk comes out cloudy when punctured with a thumbnail."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "winter-squash", "summer-squash", "cucumber"],
+    "bad": ["tomato"]
+  },
+  "pests": ["corn-earworm", "european-corn-borer", "raccoon", "smut"],
+  "harvest": {
+    "cues": "Pull back husk slightly; kernels should be plump, full to the tip, milky when pierced.",
+    "storageNotes": "Eat within hours of picking for peak sugar. Refrigerate husks-on max 1–2 days."
+  },
+  "varieties": [
+    {
+      "slug": "silver-queen",
+      "name": "Silver Queen",
+      "subCategory": "white-su",
+      "daysToMaturity": [85, 95],
+      "notes": "Classic Southern white. Sweet, tender."
+    },
+    {
+      "slug": "bodacious",
+      "name": "Bodacious",
+      "subCategory": "yellow-se",
+      "daysToMaturity": [72, 82],
+      "notes": "Sugar-enhanced yellow. Holds sugar a few days after picking."
+    }
+  ],
+  "notes": "Plant in dense square blocks, not long single rows — wind pollinates best with neighbors close by. Three Sisters: pair with pole bean (climbs corn) and winter squash (mulches the ground)."
+}

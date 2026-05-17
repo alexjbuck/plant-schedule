@@ -1,0 +1,61 @@
+{
+  "slug": "salsify",
+  "name": "Salsify",
+  "scientificName": "Tragopogon porrifolius",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "long-season", "frost-sweetened"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [110, 150],
+    "spacing": { "in": 3, "cm": 8 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 0,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD",
+      "notes": "Use FRESH seed — viability drops fast. Loose, stone-free soil for straight roots."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+1w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-2w",
+      "to": "FFD+8w",
+      "notes": "After hard frosts — frost sweetens. Lift carefully; roots are 8 to 12 in long and break easily."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "onion"],
+    "bad": []
+  },
+  "pests": ["wireworm", "root-rot-from-wet-soil"],
+  "harvest": {
+    "cues": "Roots 1 in across at the shoulder, 8 to 12 in long, creamy white. Tops are bluish-green, grass-like.",
+    "storageNotes": "Mulch and overwinter in ground (best); or store in damp sand at 32 to 40 F for 3 to 4 months."
+  },
+  "varieties": [
+    {
+      "slug": "mammoth-sandwich-island",
+      "name": "Mammoth Sandwich Island",
+      "subCategory": "standard",
+      "daysToMaturity": [120, 150]
+    }
+  ],
+  "notes": "Called 'oyster plant' for the mild oyster-like flavor when peeled and simmered. Roots discolor fast when peeled — submerge in acidulated water immediately. Niche but classic in French and Italian cooking."
+}

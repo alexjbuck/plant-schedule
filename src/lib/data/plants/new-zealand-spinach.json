@@ -1,0 +1,62 @@
+{
+  "slug": "new-zealand-spinach",
+  "name": "New Zealand spinach",
+  "scientificName": "Tetragonia tetragonioides",
+  "category": "leafy-green",
+  "tags": ["warm-season", "heat-loving", "sprawling", "drought-tolerant"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [50, 70],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "Soak seeds 24 hours — hard coats. Or nick with a file."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "To 18 in. Sprawls aggressively."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-1w",
+      "notes": "Pinch top 3 to 4 in of stems with leaves. Continuous harvest keeps it producing."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato", "corn"],
+    "bad": []
+  },
+  "pests": ["aphid", "leaf-miner"],
+  "harvest": {
+    "cues": "Stem tips with 4 to 6 leaves. Plant becomes bitter if not picked regularly.",
+    "storageNotes": "Fridge in damp paper 3 to 5 days. Cooked tastes nearly identical to spinach; raw is slightly salty-tinged."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common NZ Spinach",
+      "subCategory": "standard",
+      "notes": "The only widely-available variety."
+    }
+  ],
+  "notes": "Not a true spinach but cooks like one. Hot-weather substitute when real spinach bolts. Sprawls 3 to 4 ft — give it space or let it ramble through tomato beds as living mulch. Contains oxalates; cook briefly to reduce."
+}

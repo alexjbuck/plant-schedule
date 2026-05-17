@@ -1,0 +1,83 @@
+{
+  "slug": "carrot",
+  "name": "Carrot",
+  "scientificName": "Daucus carota",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "slow-germinator", "succession"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [60, 80],
+    "spacing": { "in": 2, "cm": 5 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 28,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+2w",
+      "notes": "Surface-sow on fine seedbed. Keep evenly moist for 3 weeks — burlap helps."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "To 2 in spacing. Crowded carrots fork."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-12w",
+      "to": "FFD-10w",
+      "notes": "Fall crop stores in the ground under mulch."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Pull when tops are pencil-thick at ground level."
+    }
+  ],
+  "companions": {
+    "good": ["onion", "leek", "rosemary", "sage"],
+    "bad": ["dill", "parsnip"]
+  },
+  "pests": ["carrot-fly", "wireworm", "alternaria-leaf-blight"],
+  "harvest": {
+    "cues": "Shoulders are colored and 1 in across. Pull one to check. Smaller is sweeter.",
+    "storageNotes": "Top, scrub, store in damp sand or in fridge in plastic bag. Months in cold storage."
+  },
+  "varieties": [
+    {
+      "slug": "nantes",
+      "name": "Nantes",
+      "subCategory": "main-season",
+      "daysToMaturity": [60, 70],
+      "notes": "Sweet, blunt-tipped, excellent eating. Reliable in clay."
+    },
+    {
+      "slug": "danvers",
+      "name": "Danvers 126",
+      "subCategory": "main-season",
+      "daysToMaturity": [70, 80],
+      "notes": "Tapered, strong tops, tolerates heavy soils."
+    },
+    {
+      "slug": "paris-market",
+      "name": "Paris Market",
+      "subCategory": "round",
+      "daysToMaturity": [55, 65],
+      "notes": "Golf-ball round. Best for shallow beds and containers."
+    }
+  ],
+  "notes": "Keep moist for the full 21-day germination — drying out is the #1 failure. Don't fertilize with fresh manure; you'll get hairy, forked roots."
+}

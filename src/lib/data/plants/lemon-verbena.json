@@ -1,0 +1,56 @@
+{
+  "slug": "lemon-verbena",
+  "name": "Lemon verbena",
+  "scientificName": "Aloysia citrodora",
+  "category": "herb",
+  "tags": ["perennial-warm-zones", "deciduous", "tea-herb"],
+  "growth": {
+    "daysToGermination": [21, 42],
+    "daysToMaturity": [365, 730],
+    "spacing": { "in": 36, "cm": 90 },
+    "rowSpacing": { "in": 48, "cm": 120 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [65, 85],
+    "minNightTempF": 25,
+    "maxDayTempF": 100,
+    "hardinessZones": [8, 11]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+5w",
+      "notes": "Buy a plant; cuttings root in summer. Pot for overwintering indoors in zones 7 and below."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Snip stem tips. Pinch tips early to encourage bushy growth."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato"],
+    "bad": []
+  },
+  "pests": ["spider-mite", "whitefly"],
+  "harvest": {
+    "cues": "Stems 6 in, leaves narrow and lance-shaped, intense lemon scent when rubbed.",
+    "storageNotes": "Dries excellently — flavor and scent hold for 1 to 2 years in sealed jars. Use 2 to 3 dried leaves per cup of tea."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Lemon Verbena",
+      "subCategory": "culinary",
+      "notes": "The classic. Single cultivar in commerce."
+    }
+  ],
+  "notes": "Most intensely lemony of any herb. Stunning in tea (alone or blended with mint), syrups, sorbets, and shortbread. Deciduous — drops leaves in winter and looks dead until late spring. Don't give up on it."
+}

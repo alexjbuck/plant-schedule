@@ -1,0 +1,69 @@
+{
+  "slug": "gai-lan",
+  "name": "Gai lan (Chinese broccoli)",
+  "scientificName": "Brassica oleracea (Alboglabra)",
+  "category": "brassica",
+  "tags": ["cool-season", "asian", "fast"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [45, 70],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+1w",
+      "notes": "Succession every 2 weeks while cool."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+5w",
+      "to": "FFD",
+      "notes": "Cut 8-in tops with thick stems, leaves, and small flower buds. Side shoots keep coming for weeks."
+    }
+  ],
+  "companions": {
+    "good": ["beet", "celery", "onion", "potato"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "flea-beetle", "aphid"],
+  "harvest": {
+    "cues": "Stems thick (1/2 in+), 8 to 12 in tall, with some leaves and tight flower buds. Few open white flowers are fine.",
+    "storageNotes": "Fridge in damp paper 5 to 7 days. Cooks in 2 to 3 minutes — quick stir-fry or oyster sauce."
+  },
+  "varieties": [
+    {
+      "slug": "green-lance",
+      "name": "Green Lance",
+      "subCategory": "modern",
+      "daysToMaturity": [45, 55],
+      "notes": "Tender stems, deep blue-green leaves. Fast to maturity."
+    },
+    {
+      "slug": "kailaan-white-flower",
+      "name": "White-Flowered Kailaan",
+      "subCategory": "traditional",
+      "daysToMaturity": [60, 70],
+      "notes": "Larger plants. Slower but more productive over the season."
+    }
+  ],
+  "notes": "Tender stems are the prize — peel any tough lower section. Goes with everything: oyster sauce, garlic, fermented bean. Cool-season standby; bolts hot."
+}

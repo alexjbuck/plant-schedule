@@ -1,0 +1,61 @@
+{
+  "slug": "catnip",
+  "name": "Catnip",
+  "scientificName": "Nepeta cataria",
+  "category": "herb",
+  "tags": ["perennial", "pollinator", "pest-repellent", "self-seeding"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [80, 100],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -30,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "Pick a spot away from main paths — feline visitors will trample the surroundings."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD",
+      "notes": "Cut stems just before flowering for the strongest scent. Hang in shade to dry."
+    }
+  ],
+  "companions": {
+    "good": ["pumpkin", "squash"],
+    "bad": []
+  },
+  "pests": ["aphid"],
+  "harvest": {
+    "cues": "Whole stems 8+ in, leaves still bright green, buds tight or just opening.",
+    "storageNotes": "Dries excellently in bundles. Keeps a year in airtight jars."
+  },
+  "varieties": [
+    {
+      "slug": "true-catnip",
+      "name": "True Catnip",
+      "subCategory": "cataria",
+      "notes": "The cat-attracting one. Not as ornamental as Nepeta hybrids."
+    }
+  ],
+  "notes": "Cat-magnet. If you have outdoor cats, expect rolling and trampling. Repels squash bugs and aphids when interplanted with cucurbits. Also a calming herbal tea for humans."
+}

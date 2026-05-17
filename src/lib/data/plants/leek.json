@@ -1,0 +1,75 @@
+{
+  "slug": "leek",
+  "name": "Leek",
+  "scientificName": "Allium ampeloprasum",
+  "category": "allium",
+  "tags": ["long-season", "frost-hardy"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [100, 140],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 15,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-12w",
+      "to": "LFD-10w",
+      "notes": "Trim tops to 3 in periodically to thicken stems."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w",
+      "notes": "Drop into 6 in deep dibble holes; don't fill — water in. Hilling later blanches the shaft."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+8w",
+      "to": "LFD+12w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+15w",
+      "to": "FFD+8w",
+      "notes": "Pull as needed, well into winter under mulch in zone 6+."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "celery", "tomato"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["leek-moth", "thrips", "white-rot"],
+  "harvest": {
+    "cues": "Shafts 1 in+ thick, white portion 4+ in long. Lift with a fork to avoid breaking.",
+    "storageNotes": "Roots-on in damp sand or fridge 2 to 4 weeks. Frozen sliced for soups."
+  },
+  "varieties": [
+    {
+      "slug": "american-flag",
+      "name": "American Flag",
+      "subCategory": "summer",
+      "daysToMaturity": [105, 130],
+      "notes": "Reliable open-pollinated standard."
+    },
+    {
+      "slug": "bandit",
+      "name": "Bandit",
+      "subCategory": "overwintering",
+      "daysToMaturity": [120, 140],
+      "notes": "Cold-hardy, dark blue-green tops. Will overwinter in zones 7+."
+    }
+  ],
+  "notes": "Plant deep in dibbled holes to grow the long white shaft. Carrots make the classic companion — alleged to mask each other's pests."
+}

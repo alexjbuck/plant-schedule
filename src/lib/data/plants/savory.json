@@ -1,0 +1,56 @@
+{
+  "slug": "savory",
+  "name": "Summer savory",
+  "scientificName": "Satureja hortensis",
+  "category": "herb",
+  "tags": ["annual", "mediterranean", "bean-companion"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 70],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 80],
+    "minNightTempF": 45,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "Surface-sow; needs light. Doesn't love transplanting."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-1w",
+      "notes": "Cut whole stems just before flowering. Plant grows back for a second cut."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "onion"],
+    "bad": []
+  },
+  "pests": ["aphid"],
+  "harvest": {
+    "cues": "Stems 6 to 8 in, buds tight. Strip leaves with thumb and forefinger.",
+    "storageNotes": "Dries excellently. Flavor concentrates — use sparingly dried."
+  },
+  "varieties": [
+    {
+      "slug": "summer",
+      "name": "Summer Savory",
+      "subCategory": "annual-culinary",
+      "notes": "The classic bean herb — pepper-thyme flavor. Plant alongside beans, beetles seem to dislike it."
+    }
+  ],
+  "notes": "Called the 'bean herb' for good reason: pairs perfectly with green beans, dried beans, lentils. Cousin Winter Savory is a hardy perennial with stronger flavor."
+}

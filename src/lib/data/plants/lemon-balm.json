@@ -1,0 +1,67 @@
+{
+  "slug": "lemon-balm",
+  "name": "Lemon balm",
+  "scientificName": "Melissa officinalis",
+  "category": "herb",
+  "tags": ["perennial", "self-seeding", "pollinator"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -15,
+    "maxDayTempF": 90,
+    "hardinessZones": [4, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Light helps germination — surface-sow."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+6w",
+      "to": "FFD",
+      "notes": "Cut hard before flowering — leaves get bitter after. Two flushes per season."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "broccoli"],
+    "bad": []
+  },
+  "pests": ["powdery-mildew", "spider-mite", "aphid"],
+  "harvest": {
+    "cues": "Stems 6+ in, leaves bright green and lemon-scented. Cut whole stems 2 in above the soil.",
+    "storageNotes": "Best fresh. Dries OK but loses much aroma. Freeze chopped in water cubes for tea."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Lemon Balm",
+      "subCategory": "culinary",
+      "notes": "Bright green, classic lemony mint scent."
+    },
+    {
+      "slug": "aurea",
+      "name": "Aurea (Golden)",
+      "subCategory": "ornamental",
+      "notes": "Yellow-variegated leaves. Slightly less vigorous, slightly less lemony."
+    }
+  ],
+  "notes": "Self-seeds aggressively — let some flower for bees, but cut the rest hard to limit volunteers. Tea favorite; rub a leaf on the back of your wrist for natural perfume."
+}

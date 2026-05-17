@@ -1,0 +1,68 @@
+{
+  "slug": "nasturtium",
+  "name": "Nasturtium",
+  "scientificName": "Tropaeolum majus",
+  "category": "flower",
+  "tags": ["annual", "edible-flower", "self-seeding", "companion-plant"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [50, 65],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [60, 80],
+    "minNightTempF": 45,
+    "maxDayTempF": 90,
+    "hardinessZones": [2, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "Doesn't transplant well — taproot. Soak seeds 12 hours first."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-1w",
+      "notes": "Pick flowers daily; pick leaves at any size. Green seed pods can be pickled as 'poor man's capers'."
+    }
+  ],
+  "companions": {
+    "good": ["cucumber", "squash", "bean", "tomato", "broccoli"],
+    "bad": []
+  },
+  "pests": ["aphid", "cabbage-worm"],
+  "harvest": {
+    "cues": "Flowers fully open, bright orange/yellow/red. Leaves any size, round and lily-pad-like.",
+    "storageNotes": "Flowers wilt within hours — eat the same day. Pickled seed pods keep months."
+  },
+  "varieties": [
+    {
+      "slug": "alaska",
+      "name": "Alaska",
+      "subCategory": "variegated-bush",
+      "notes": "White-marbled leaves, bushy 12 in. Compact for borders."
+    },
+    {
+      "slug": "empress-of-india",
+      "name": "Empress of India",
+      "subCategory": "bush-heirloom",
+      "notes": "Deep red flowers against blue-green leaves. Classic heirloom."
+    },
+    {
+      "slug": "trailing-jewel",
+      "name": "Trailing Jewel Mix",
+      "subCategory": "trailing",
+      "notes": "Vining to 6 ft. Mixed colors. Great over fences and edges."
+    }
+  ],
+  "notes": "Both leaves and flowers are edible — peppery, like a mild radish. Used as a trap crop: aphids prefer nasturtiums to your vegetables. Self-seeds in zone 7+; treat as annual elsewhere."
+}

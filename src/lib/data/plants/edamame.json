@@ -1,0 +1,64 @@
+{
+  "slug": "edamame",
+  "name": "Edamame (Soybean)",
+  "scientificName": "Glycine max",
+  "category": "legume",
+  "tags": ["warm-season", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [75, 100],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Soil must be 60+ F. Inoculate seed with soybean-specific rhizobia."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+11w",
+      "to": "LFD+15w",
+      "notes": "Pick when pods are plump and bright green, before seeds harden. Window is only 1 to 2 weeks per variety."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "cucumber", "potato"],
+    "bad": ["onion", "garlic"]
+  },
+  "pests": ["bean-beetle", "stink-bug", "deer", "rabbit"],
+  "harvest": {
+    "cues": "Pods 90% filled, bright green, fuzzy. Whole plant matures at once; pull the whole plant.",
+    "storageNotes": "Blanch in salted water 5 minutes, then freeze in pods. Fresh in fridge only 1 to 2 days."
+  },
+  "varieties": [
+    {
+      "slug": "midori-giant",
+      "name": "Midori Giant",
+      "subCategory": "japanese-eating",
+      "daysToMaturity": [80, 90],
+      "notes": "Large, sweet beans. Bred specifically for fresh eating."
+    },
+    {
+      "slug": "envy",
+      "name": "Envy",
+      "subCategory": "early",
+      "daysToMaturity": [75, 85],
+      "notes": "Fastest to maturity. Best for short seasons."
+    }
+  ],
+  "notes": "Wildlife loves them — deer and rabbits decimate young plants. Row cover is essential until they're 12 in tall. Harvest window is short; succession plant 2 to 3 times."
+}

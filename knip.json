@@ -1,0 +1,21 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "src/routes/**/+{page,layout,error,server}.{svelte,ts,js}",
+    "src/app.{html,css,d.ts}"
+  ],
+  "project": ["src/**/*.{ts,svelte,svelte.ts}", "scripts/**/*.ts"],
+  "ignoreDependencies": [
+    "@vitest/coverage-v8",
+    "prettier-plugin-svelte",
+    "workbox-window",
+    "@size-limit/file"
+  ],
+  "ignoreExportsUsedInFile": true,
+  "rules": {
+    "exports": "warn",
+    "types": "warn",
+    "duplicates": "error",
+    "files": "error"
+  }
+}
