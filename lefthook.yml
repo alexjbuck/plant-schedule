@@ -5,7 +5,7 @@ pre-commit:
   parallel: true
   commands:
     oxfmt:
-      glob: '*.{ts,js,json,jsonc,mjs,cjs}'
+      glob: '*.{ts,js,json,jsonc,mjs,cjs,md}'
       run: pnpm exec oxfmt --check --no-error-on-unmatched-pattern {staged_files}
     prettier-svelte:
       glob: '*.svelte'
