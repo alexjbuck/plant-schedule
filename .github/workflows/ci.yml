@@ -140,6 +140,11 @@ jobs:
       url: ${{ steps.deploy.outputs.deployment-url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
       - uses: actions/download-artifact@v4
         with:
           name: build-${{ github.sha }}
@@ -151,6 +156,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy build --project-name=plant-schedule --branch=${{ github.head_ref }}
+          packageManager: pnpm
       - name: Comment preview URL
         uses: marocchino/sticky-pull-request-comment@v2
         with:
