@@ -1,0 +1,81 @@
+{
+  "slug": "marigold",
+  "name": "Marigold",
+  "scientificName": "Tagetes patula / erecta",
+  "category": "flower",
+  "tags": ["annual", "pollinator", "companion-plant", "pest-deterrent"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [50, 80],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 45,
+    "maxDayTempF": 95,
+    "hardinessZones": [2, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w"
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "Germinates fast in warm soil — direct-sowing usually catches up to transplants."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+7w",
+      "to": "FFD-1w",
+      "notes": "Deadhead spent blooms or pinch to keep flowering until frost."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "pepper", "eggplant", "cucumber", "squash", "bean"],
+    "bad": []
+  },
+  "pests": ["spider-mite", "slug", "aphid"],
+  "harvest": {
+    "cues": "Flowers fully open, bright yellow to deep orange or red. Snip with shears just above a leaf node.",
+    "storageNotes": "Cut flowers last about a week in water — strip lower leaves, they smell strong in vases. Petals dry for confetti."
+  },
+  "varieties": [
+    {
+      "slug": "french-petite",
+      "name": "French Petite (Tagetes patula)",
+      "subCategory": "french",
+      "daysToMaturity": [50, 60],
+      "notes": "Compact 8 to 12 in bushes, ideal for bed edges. The classic companion-plant marigold."
+    },
+    {
+      "slug": "african-crackerjack",
+      "name": "African Crackerjack (Tagetes erecta)",
+      "subCategory": "african",
+      "daysToMaturity": [70, 90],
+      "notes": "Big pompom heads on 2 to 3 ft plants. Cut-flower staple, Day of the Dead variety."
+    },
+    {
+      "slug": "signet-lemon-gem",
+      "name": "Lemon Gem (Tagetes tenuifolia)",
+      "subCategory": "signet",
+      "daysToMaturity": [55, 65],
+      "notes": "Tiny edible flowers, citrus-tarragon scent. Lacy foliage, neat 8 in mounds."
+    }
+  ],
+  "notes": "Famous as a vegetable-garden companion — French marigolds release a compound from their roots that suppresses root-knot nematodes (effect builds over the season). Easy from direct seed once soil is warm; deadhead religiously for continuous bloom. Self-seeds in mild winters."
+}
