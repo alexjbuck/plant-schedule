@@ -1,0 +1,69 @@
+{
+  "slug": "ground-cherry",
+  "name": "Ground cherry",
+  "scientificName": "Physalis pruinosa",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "self-seeding", "sprawling"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Treat like tomatoes — wait for warm soil and reliably warm nights."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD",
+      "notes": "Fruits drop to the ground in their husks when ripe — just pick them up daily."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "basil"],
+    "bad": ["fennel"]
+  },
+  "pests": ["three-lined-potato-beetle", "flea-beetle"],
+  "harvest": {
+    "cues": "Husks dry and paper-bag tan; fruits drop on their own. Inner fruit golden-yellow. Don't pick before drop — they're not ripe.",
+    "storageNotes": "In husks at room temp 2 to 3 months. The husk preserves them. Husked: fridge 1 to 2 weeks."
+  },
+  "varieties": [
+    {
+      "slug": "aunt-mollys",
+      "name": "Aunt Molly's",
+      "subCategory": "open-pollinated",
+      "daysToMaturity": [70, 80],
+      "notes": "Pineapple-mango flavor when fully ripe. Heirloom favorite."
+    },
+    {
+      "slug": "cossack-pineapple",
+      "name": "Cossack Pineapple",
+      "subCategory": "open-pollinated",
+      "daysToMaturity": [70, 80],
+      "notes": "Strong pineapple notes. Slightly larger fruits."
+    }
+  ],
+  "notes": "Self-seeds aggressively — one season's volunteers can carpet the bed next year. Sprawling 2 to 3 ft plants; let them run or cage loosely. Great in jam, pies, or eaten by the handful warm from the husk."
+}

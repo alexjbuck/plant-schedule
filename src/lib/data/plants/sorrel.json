@@ -1,0 +1,62 @@
+{
+  "slug": "sorrel",
+  "name": "Sorrel",
+  "scientificName": "Rumex acetosa",
+  "category": "leafy-green",
+  "tags": ["perennial", "tangy", "cool-tolerant"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -20,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Or start indoors 4 weeks earlier. Picks a spot once — perennial 4 to 6 years."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD+2w",
+      "notes": "Pick outer leaves at 4 to 6 in; bright lemony tang. Cut flower stalks to keep leaves coming."
+    }
+  ],
+  "companions": {
+    "good": ["strawberry"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug", "leaf-miner"],
+  "harvest": {
+    "cues": "Leaves 4 to 6 in, arrowhead-shaped, bright green. Avoid older leaves — they get tough.",
+    "storageNotes": "Wilts fast — best fresh. Fridge in damp paper towel 3 to 5 days. Doesn't dry well."
+  },
+  "varieties": [
+    {
+      "slug": "common-garden",
+      "name": "Common Garden Sorrel",
+      "subCategory": "rumex-acetosa",
+      "notes": "Large arrowhead leaves, tangy. Most productive type."
+    },
+    {
+      "slug": "blood-veined",
+      "name": "Blood-veined Sorrel",
+      "subCategory": "rumex-sanguineus",
+      "notes": "Striking deep-red veins. Slightly milder. Beautiful in salads."
+    }
+  ],
+  "notes": "Sour from oxalic acid — eat in moderation if prone to kidney stones. Classic in French sorrel soup. Trim flower stalks promptly to redirect energy back to leaves."
+}
