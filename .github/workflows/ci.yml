@@ -196,6 +196,40 @@ jobs:
             ${{ needs.preview-deploy.outputs.url }}/this-weekend
           uploadArtifacts: true
           temporaryPublicStorage: true
+      - name: Format Lighthouse scores
+        id: format
+        if: always()
+        env:
+          MANIFEST: ${{ steps.lhci.outputs.manifest }}
+          LINKS: ${{ steps.lhci.outputs.links }}
+        run: |
+          set -euo pipefail
+          if [ -z "${MANIFEST:-}" ] || [ "$MANIFEST" = "null" ]; then
+            {
+              echo 'body<<EOF'
+              echo 'Lighthouse run failed before producing results.'
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          table=$(echo "$MANIFEST" | jq -r --argjson links "$LINKS" '
+            [
+              "| Route | Perf | A11y | Best Practices | SEO |",
+              "| --- | ---: | ---: | ---: | ---: |",
+              (.[] | select(.isRepresentativeRun)
+                | (.url | sub("https?://[^/]+"; "")) as $path
+                | ($links[.url] // "") as $link
+                | (if $link == "" then "`\($path)`" else "[`\($path)`](\($link))" end) as $cell
+                | "| \($cell) | \(.summary.performance * 100 | round) | \(.summary.accessibility * 100 | round) | \(.summary["best-practices"] * 100 | round) | \(.summary.seo * 100 | round) |")
+            ] | join("\n")
+          ')
+          {
+            echo 'body<<EOF'
+            echo "$table"
+            echo
+            echo "_Preview deploys carry an \`X-Robots-Tag: noindex\` header from Cloudflare Pages; the SEO score is reduced accordingly. Production scores at \`alexjbuck.github.io/plant-schedule/\` will be higher._"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
       - name: Comment Lighthouse scores
         if: always()
         uses: marocchino/sticky-pull-request-comment@v2
@@ -204,6 +238,4 @@ jobs:
           message: |
             ### Lighthouse scores
 
-            ${{ steps.lhci.outputs.manifest && 'See run artifacts for the full report.' || 'Run failed.' }}
-
-            Links: ${{ steps.lhci.outputs.links }}
+            ${{ steps.format.outputs.body }}
