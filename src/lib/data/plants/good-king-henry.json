@@ -1,0 +1,56 @@
+{
+  "slug": "good-king-henry",
+  "name": "Good King Henry",
+  "scientificName": "Blitum bonus-henricus",
+  "category": "leafy-green",
+  "tags": ["perennial", "long-lived", "shade-tolerant", "medieval-greens"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [365, 730],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": -25,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Refrigerate seeds 2 weeks first. Slow to start; perennial after year 1."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "FFD",
+      "notes": "Year 2+: harvest spring shoots like asparagus; young leaves like spinach; immature flower buds like broccoli."
+    }
+  ],
+  "companions": {
+    "good": ["sorrel", "lovage"],
+    "bad": []
+  },
+  "pests": ["leaf-miner", "aphid"],
+  "harvest": {
+    "cues": "Spring shoots: 6 in tall, snap cleanly. Leaves: 4 to 6 in, arrow-shaped. Flower buds: tight green clusters before opening.",
+    "storageNotes": "Fresh shoots in damp paper, fridge 1 week. Leaves wilt fast — best fresh."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Good King Henry",
+      "subCategory": "traditional",
+      "notes": "Medieval kitchen-garden perennial. Tolerates shade few other greens accept."
+    }
+  ],
+  "notes": "Triple-purpose plant — spring shoots, summer leaves, broccoli-style buds. Lives 10+ years. Slightly oxalic like spinach; cook briefly before eating. Niche perennial worth knowing about for a shady corner."
+}

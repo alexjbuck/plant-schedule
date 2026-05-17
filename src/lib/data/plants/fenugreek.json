@@ -1,0 +1,56 @@
+{
+  "slug": "fenugreek",
+  "name": "Fenugreek",
+  "scientificName": "Trigonella foenum-graecum",
+  "category": "legume",
+  "tags": ["cool-season", "annual", "dual-purpose", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [3, 7],
+    "daysToMaturity": [40, 90],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 80],
+    "minNightTempF": 30,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-2w",
+      "to": "LFD+4w",
+      "notes": "Succession every 2 to 3 weeks for fresh leaves. Doesn't transplant well."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+5w",
+      "to": "FFD",
+      "notes": "Leaves (methi): 4 to 6 weeks. Seeds: when pods turn brown and dry, 90 to 100 days."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "pepper"],
+    "bad": []
+  },
+  "pests": ["aphid", "powdery-mildew"],
+  "harvest": {
+    "cues": "Leaves at 6 to 8 in for the whole plant; or cut individual leaves. Seeds when pods are crisp and brown.",
+    "storageNotes": "Fresh leaves: fridge 5 days. Dried leaves: a year in airtight jars. Seeds keep indefinitely."
+  },
+  "varieties": [
+    {
+      "slug": "methi",
+      "name": "Methi",
+      "subCategory": "leaf-and-seed",
+      "notes": "Standard dual-purpose. Indian markets sell both fresh leaves and seeds under this name."
+    }
+  ],
+  "notes": "Fixes nitrogen — a great cover crop. Leaves taste like a cross between celery and maple syrup; seeds carry the distinctive curry-powder note. Bolts above 80 F."
+}

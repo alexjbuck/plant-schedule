@@ -1,0 +1,75 @@
+{
+  "slug": "shiso",
+  "name": "Shiso (Perilla)",
+  "scientificName": "Perilla frutescens",
+  "category": "herb",
+  "tags": ["warm-season", "annual", "asian", "self-seeding"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 85],
+    "minNightTempF": 50,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w",
+      "notes": "Refrigerate seeds 1 week first — chilling improves germination."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+4w",
+      "notes": "Surface-sow; light required."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-1w",
+      "notes": "Pinch growing tips; pinch flower buds to extend leaf harvest. Mature seeds are also edible."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "pepper", "basil"],
+    "bad": []
+  },
+  "pests": ["aphid", "japanese-beetle", "slug"],
+  "harvest": {
+    "cues": "Leaves 3 to 6 in, deeply purple or green, intensely aromatic when crushed.",
+    "storageNotes": "Stems in water, fridge 3 to 5 days. Best fresh — flavor fades when dried."
+  },
+  "varieties": [
+    {
+      "slug": "red",
+      "name": "Red (Aka) Shiso",
+      "subCategory": "purple-leaf",
+      "daysToMaturity": [70, 80],
+      "notes": "Deep purple, used for umeboshi (Japanese pickled plums) and the pink dye of pickled ginger."
+    },
+    {
+      "slug": "green",
+      "name": "Green (Ao) Shiso",
+      "subCategory": "green-leaf",
+      "daysToMaturity": [70, 80],
+      "notes": "Bright green, citrus-cinnamon-basil flavor. Standard for sashimi, tempura."
+    }
+  ],
+  "notes": "Self-seeds aggressively — one season's plants become next year's bed. Distinctive flavor: somewhere between basil, mint, and anise. Essential in Japanese cooking."
+}
