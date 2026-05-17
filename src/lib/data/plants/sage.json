@@ -1,0 +1,72 @@
+{
+  "slug": "sage",
+  "name": "Sage",
+  "scientificName": "Salvia officinalis",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "mediterranean"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [75, 90],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -15,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Pick lightly the first year. Year 2+: cut whole branches before flowering."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "carrot", "tomato", "rosemary"],
+    "bad": ["cucumber", "onion"]
+  },
+  "pests": ["spider-mite", "powdery-mildew", "slug"],
+  "harvest": {
+    "cues": "Leaves silver-green, soft-fuzzy, before flowering. Snip 6 in stems.",
+    "storageNotes": "Dries beautifully — flavor mellows from intense to sweet-piney. Hang bundles in shade."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Sage",
+      "subCategory": "culinary",
+      "notes": "Classic gray-green. The Thanksgiving sage."
+    },
+    {
+      "slug": "purpurea",
+      "name": "Purple Sage",
+      "subCategory": "ornamental-culinary",
+      "notes": "Deep purple new growth. Slightly milder."
+    },
+    {
+      "slug": "tricolor",
+      "name": "Tricolor",
+      "subCategory": "ornamental",
+      "notes": "Pink, white, and green variegated. Less cold-hardy."
+    }
+  ],
+  "notes": "Replace every 3 to 4 years — old plants get woody and lose flavor. Cut hard in early spring to encourage new growth from the base."
+}

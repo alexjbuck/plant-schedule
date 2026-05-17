@@ -1,0 +1,68 @@
+{
+  "slug": "mint",
+  "name": "Mint",
+  "scientificName": "Mentha spp.",
+  "category": "herb",
+  "tags": ["perennial", "aggressive", "contain-in-pot"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -20,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+4w",
+      "notes": "Plant in a buried pot or a contained bed — it spreads aggressively by runners."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD+2w",
+      "notes": "Pinch tips frequently to keep bushy and prevent flowering."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "tomato"],
+    "bad": ["parsley", "chamomile"]
+  },
+  "pests": ["spider-mite", "rust", "mint-leaf-beetle"],
+  "harvest": {
+    "cues": "Cut whole stems 1 in above the soil — regrows quickly. Best flavor just before flowering.",
+    "storageNotes": "Stems in a jar of water at room temp 1 week. Dries well; freeze in cubes for cocktails."
+  },
+  "varieties": [
+    {
+      "slug": "spearmint",
+      "name": "Spearmint",
+      "subCategory": "culinary",
+      "notes": "The standard for cooking, mojitos, tabbouleh."
+    },
+    {
+      "slug": "peppermint",
+      "name": "Peppermint",
+      "subCategory": "tea",
+      "notes": "Higher menthol. Best for tea and desserts."
+    },
+    {
+      "slug": "chocolate-mint",
+      "name": "Chocolate Mint",
+      "subCategory": "specialty",
+      "notes": "Faint cocoa-mint aroma. Great in ice cream and chocolate desserts."
+    }
+  ],
+  "notes": "Always contain — runners will take over a bed in two seasons. Bury a 12 in pot with rim above ground, or use a deep planter. Cut hard after flowering to refresh."
+}

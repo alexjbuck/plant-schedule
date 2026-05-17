@@ -1,0 +1,62 @@
+{
+  "slug": "rosemary",
+  "name": "Rosemary",
+  "scientificName": "Salvia rosmarinus",
+  "category": "herb",
+  "tags": ["perennial", "evergreen", "mediterranean", "drought-tolerant"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [80, 365],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [65, 75],
+    "minNightTempF": 15,
+    "maxDayTempF": 100,
+    "hardinessZones": [7, 10]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "Buy a 4 in pot rather than seed-start — seedlings take 2 years to be useful."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD+4w",
+      "notes": "Snip 6 in tips year-round in zone 7+. Below zone 7, overwinter in a pot indoors."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "bean", "carrot", "sage"],
+    "bad": ["pumpkin"]
+  },
+  "pests": ["spider-mite", "powdery-mildew", "root-rot-from-wet-soil"],
+  "harvest": {
+    "cues": "Stems are firm, leaves needle-stiff. Strip with thumb and forefinger from tip toward base.",
+    "storageNotes": "Excellent dried; flavor concentrates. Fresh stems keep a week in a damp paper towel."
+  },
+  "varieties": [
+    {
+      "slug": "tuscan-blue",
+      "name": "Tuscan Blue",
+      "subCategory": "upright-culinary",
+      "notes": "Tall to 6 ft. Strongest flavor. The pizza/lamb standard."
+    },
+    {
+      "slug": "arp",
+      "name": "Arp",
+      "subCategory": "cold-hardy",
+      "notes": "Hardy to zone 6 with mulch. Slightly less pungent."
+    }
+  ],
+  "notes": "Below zone 7 it must come indoors for winter — pot it and give a south window with little water. Don't overwater inside; root rot is the #1 killer of houseplant rosemary."
+}

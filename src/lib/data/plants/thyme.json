@@ -1,0 +1,73 @@
+{
+  "slug": "thyme",
+  "name": "Thyme",
+  "scientificName": "Thymus vulgaris",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "mediterranean"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [75, 90],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 55,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -10,
+    "maxDayTempF": 95,
+    "hardinessZones": [5, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Surface-sow; slow to germinate. Easier from cuttings or division."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD",
+      "notes": "Snip stems just before flowering for peak flavor; trim plant by a third after bloom."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "carrot", "strawberry"],
+    "bad": []
+  },
+  "pests": ["spider-mite", "root-rot-from-wet-soil"],
+  "harvest": {
+    "cues": "Stems 6+ in, leaves dense, just before flowering buds open. Strip leaves with thumb and forefinger.",
+    "storageNotes": "Dries on the stem — bundle and hang. Tastes nearly as good fresh from a dried sprig."
+  },
+  "varieties": [
+    {
+      "slug": "english",
+      "name": "English Thyme",
+      "subCategory": "culinary",
+      "notes": "The all-purpose kitchen thyme."
+    },
+    {
+      "slug": "lemon",
+      "name": "Lemon Thyme",
+      "subCategory": "citrus",
+      "notes": "Bright lemon scent. Great with fish."
+    },
+    {
+      "slug": "creeping",
+      "name": "Creeping Thyme",
+      "subCategory": "ornamental",
+      "notes": "Ground cover. Tougher leaves, less culinary."
+    }
+  ],
+  "notes": "Wants lean, gravelly soil and full sun — overfed thyme is leggy and flavorless. Wood mulch holds too much water; use gravel."
+}

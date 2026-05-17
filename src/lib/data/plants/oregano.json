@@ -1,0 +1,67 @@
+{
+  "slug": "oregano",
+  "name": "Oregano",
+  "scientificName": "Origanum vulgare",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "mediterranean"],
+  "growth": {
+    "daysToGermination": [10, 14],
+    "daysToMaturity": [80, 90],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -10,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Tiny seeds — surface-sow on damp mix, don't cover."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-2w",
+      "notes": "Best flavor just as flower buds form. Cut whole stems back to 2 in for a second flush."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato", "basil"],
+    "bad": []
+  },
+  "pests": ["aphid", "spider-mite", "root-rot-from-wet-soil"],
+  "harvest": {
+    "cues": "Stems 6 to 8 in. Pinch out flowers to keep leaves flavorful.",
+    "storageNotes": "Dries excellently — bundle and hang in shade 2 to 3 weeks. Flavor concentrates."
+  },
+  "varieties": [
+    {
+      "slug": "greek",
+      "name": "Greek (Origanum heracleoticum)",
+      "subCategory": "culinary",
+      "notes": "The true pizza oregano. Pungent, slightly hot."
+    },
+    {
+      "slug": "italian",
+      "name": "Italian (Origanum × majoricum)",
+      "subCategory": "culinary",
+      "notes": "Milder, sweeter. Marjoram x oregano cross."
+    }
+  ],
+  "notes": "Hates wet feet — plant in lean, well-drained soil and don't fertilize. Rich soil and water make it tasteless. Divide every 3 to 4 years to refresh."
+}

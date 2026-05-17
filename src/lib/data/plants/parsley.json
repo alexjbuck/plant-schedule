@@ -1,0 +1,74 @@
+{
+  "slug": "parsley",
+  "name": "Parsley",
+  "scientificName": "Petroselinum crispum",
+  "category": "herb",
+  "tags": ["biennial", "cold-tolerant"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 20,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Soak seed 24 hours; germination is famously slow."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+2w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+1w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD+2w",
+      "notes": "Cut outer stems at the base — plant keeps producing for 6+ months."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "asparagus", "carrot"],
+    "bad": ["lettuce"]
+  },
+  "pests": ["aphid", "swallowtail-caterpillar", "septoria-leaf-spot"],
+  "harvest": {
+    "cues": "Stems 8+ in long, leaves bright green. Cut outer stems at the soil — leave the center crown.",
+    "storageNotes": "Stems in water on the counter 1 week. Freeze chopped in oil for winter."
+  },
+  "varieties": [
+    {
+      "slug": "italian-flat-leaf",
+      "name": "Italian Flat Leaf",
+      "subCategory": "flat",
+      "daysToMaturity": [70, 80],
+      "notes": "Stronger flavor than curly. The chef's standard."
+    },
+    {
+      "slug": "moss-curled",
+      "name": "Moss Curled",
+      "subCategory": "curly",
+      "daysToMaturity": [70, 85],
+      "notes": "Tighter, decorative leaves. Slightly milder."
+    }
+  ],
+  "notes": "Biennial — flowers and dies in year 2. Treat as annual; let it self-seed for swallowtail butterfly larvae habitat. Don't move once established; tap root resents transplanting."
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "lavender",
+  "name": "Lavender",
+  "scientificName": "Lavandula angustifolia",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "pollinator"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 80],
+    "minNightTempF": -20,
+    "maxDayTempF": 100,
+    "hardinessZones": [5, 9]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "Buy plants — seed is unreliable and slow. Set at original soil line; deeper buries the crown."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "LFD+14w",
+      "notes": "Cut stems when half the buds on a spike are open for the strongest scent."
+    }
+  ],
+  "companions": {
+    "good": ["rosemary", "thyme", "rose"],
+    "bad": ["mint"]
+  },
+  "pests": ["spider-mite", "root-rot-from-wet-soil", "shab-disease"],
+  "harvest": {
+    "cues": "Buds plump and showing color; about half the buds on a spike are open.",
+    "storageNotes": "Hang bundles upside down in shade 2 to 3 weeks. Buds rub off easily for sachets and culinary use."
+  },
+  "varieties": [
+    {
+      "slug": "munstead",
+      "name": "Munstead",
+      "subCategory": "english",
+      "notes": "Compact 18 in, very cold-hardy. Sweet floral scent."
+    },
+    {
+      "slug": "hidcote",
+      "name": "Hidcote",
+      "subCategory": "english",
+      "notes": "Deep purple flowers, slow-growing. Classic for hedges."
+    },
+    {
+      "slug": "grosso",
+      "name": "Grosso",
+      "subCategory": "lavandin",
+      "notes": "Large, vigorous, high oil content. Less cold-hardy (zone 6+)."
+    }
+  ],
+  "notes": "Needs gravelly, lean, alkaline soil; rich wet soil kills it within a season. Don't mulch with bark. Prune by a third after flowering to keep tight; never cut into bare wood."
+}

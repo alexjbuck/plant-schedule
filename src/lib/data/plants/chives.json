@@ -1,0 +1,72 @@
+{
+  "slug": "chives",
+  "name": "Chives",
+  "scientificName": "Allium schoenoprasum",
+  "category": "herb",
+  "tags": ["perennial", "edible-flower", "pollinator"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": -30,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Sow 6 to 10 seeds per cell — chives grow in clumps."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+2w"
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD-1w",
+      "to": "LFD+2w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD+2w",
+      "notes": "Snip leaves 1 in above soil; regrow in 2 to 3 weeks."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "tomato", "rose", "apple"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["onion-thrips", "rust"],
+  "harvest": {
+    "cues": "Leaves 6+ in. Flowers are edible — pretty pink-purple pompoms, peppery in salads.",
+    "storageNotes": "Wrap fresh in damp paper towel, fridge 1 week. Freeze chopped; flavor holds reasonably."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Chives",
+      "subCategory": "onion-chive",
+      "notes": "The standard. Pink-purple flowers."
+    },
+    {
+      "slug": "garlic-chives",
+      "name": "Garlic Chives",
+      "subCategory": "garlic-chive",
+      "notes": "Flat leaves, white flowers, mild garlic flavor. Self-seeds aggressively."
+    }
+  ],
+  "notes": "Reliable perennial in even zone 3. Cut hard in early spring for fresh growth. Divide clumps every 3 to 4 years."
+}
