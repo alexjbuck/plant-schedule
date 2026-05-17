@@ -56,13 +56,13 @@ without a browser.
 
 Phase windows in plant JSON are written relative to local frost dates:
 
-| Expression | Meaning                                |
-| ---------- | -------------------------------------- |
-| `LFD`      | Last frost date                        |
-| `FFD`      | First frost date                       |
-| `LFD-6w`   | Six weeks before last frost            |
-| `LFD+10d`  | Ten days after last frost              |
-| `FFD-2w`   | Two weeks before first frost           |
+| Expression | Meaning                                              |
+| ---------- | ---------------------------------------------------- |
+| `LFD`      | Last frost date                                      |
+| `FFD`      | First frost date                                     |
+| `LFD-6w`   | Six weeks before last frost                          |
+| `LFD+10d`  | Ten days after last frost                            |
+| `FFD-2w`   | Two weeks before first frost                         |
 | `Mar-15`   | Absolute date (e.g. for garlic, which ignores frost) |
 
 Example, from `tomato.json`:
@@ -101,16 +101,16 @@ backend.
 
 ### Common commands
 
-| Script                   | Does                                            |
-| ------------------------ | ----------------------------------------------- |
-| `pnpm dev`               | Local dev server with HMR                       |
-| `pnpm build`             | Static production build                         |
-| `pnpm check`             | `svelte-check` + `tsc`                          |
-| `pnpm test`              | Run the Vitest suite                            |
-| `pnpm test:cov`          | Run with coverage (JSON summary)                |
-| `pnpm lint`              | `oxlint` + ESLint (Svelte only)                 |
-| `pnpm format`            | `oxfmt` + Prettier (Svelte only)                |
-| `pnpm validate:plants`   | Zod-validate every plant JSON                   |
+| Script                 | Does                             |
+| ---------------------- | -------------------------------- |
+| `pnpm dev`             | Local dev server with HMR        |
+| `pnpm build`           | Static production build          |
+| `pnpm check`           | `svelte-check` + `tsc`           |
+| `pnpm test`            | Run the Vitest suite             |
+| `pnpm test:cov`        | Run with coverage (JSON summary) |
+| `pnpm lint`            | `oxlint` + ESLint (Svelte only)  |
+| `pnpm format`          | `oxfmt` + Prettier (Svelte only) |
+| `pnpm validate:plants` | Zod-validate every plant JSON    |
 
 ## Project layout
 
@@ -163,9 +163,9 @@ Actions".
 
 ## Status
 
-The data layer is done and tested; the UI is being built phase by phase.
-See [`PLAN.md`](./PLAN.md) for the roadmap and
-[`CLAUDE.md`](./CLAUDE.md) for conventions and the data model in detail.
+All initial phases have shipped. See [`PLAN.md`](./PLAN.md) for the
+changelog and [`CLAUDE.md`](./CLAUDE.md) for conventions and the data
+model in detail.
 
 ## License
 
