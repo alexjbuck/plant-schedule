@@ -1,0 +1,83 @@
+{
+  "slug": "onion",
+  "name": "Onion",
+  "scientificName": "Allium cepa",
+  "category": "allium",
+  "tags": ["long-season", "daylength-sensitive"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 25,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-12w",
+      "to": "LFD-10w",
+      "notes": "Slow growers; start very early. Or buy sets/transplants."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD-1w",
+      "notes": "Can take a light frost. Trim tops to 4 in at transplant."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+4w",
+      "to": "LFD+8w",
+      "notes": "Nitrogen feeds bulb growth; stop feeding when tops start to fall."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "LFD+18w",
+      "notes": "When tops fall and brown, lift and cure in shade for 2 to 3 weeks."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "beet", "tomato", "lettuce"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["onion-maggot", "thrips", "downy-mildew", "fusarium-rot"],
+  "harvest": {
+    "cues": "Tops have flopped over and started to brown. Lift on a dry day.",
+    "storageNotes": "Cure 2 to 3 weeks dry and airy, then braid or net. Keeps 4 to 8 months at 35 to 45 F."
+  },
+  "varieties": [
+    {
+      "slug": "yellow-storage",
+      "name": "Patterson",
+      "subCategory": "long-day-storage",
+      "daysToMaturity": [104, 110],
+      "notes": "Long day. Excellent storage in northern climates."
+    },
+    {
+      "slug": "candy",
+      "name": "Candy",
+      "subCategory": "intermediate-day",
+      "daysToMaturity": [85, 100],
+      "notes": "Intermediate day, works in most of the US. Sweet."
+    },
+    {
+      "slug": "texas-grano",
+      "name": "Texas Grano",
+      "subCategory": "short-day-sweet",
+      "daysToMaturity": [110, 125],
+      "notes": "Short-day sweet for southern US (below latitude 35)."
+    }
+  ],
+  "notes": "Match daylength to your latitude: short-day (south of 35°N), intermediate (35–38°N), long-day (38°N+). Wrong daylength = no bulbs."
+}

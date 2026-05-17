@@ -1,0 +1,86 @@
+{
+  "slug": "cabbage",
+  "name": "Cabbage",
+  "scientificName": "Brassica oleracea (Capitata)",
+  "category": "brassica",
+  "tags": ["cool-season", "transplant", "long-storage"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [70, 110],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD-1w"
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "Compost or balanced fert when heads start to form."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-14w",
+      "to": "FFD-12w",
+      "notes": "Fall planting for storage cabbage."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD"
+    }
+  ],
+  "companions": {
+    "good": ["onion", "celery", "potato", "dill"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "aphid", "flea-beetle", "clubroot", "cabbage-looper"],
+  "harvest": {
+    "cues": "Head is firm to the squeeze and full-sized. If it splits, harvest immediately — heavy rain after dry spell is the usual culprit.",
+    "storageNotes": "Whole heads with outer leaves keep 2 to 3 months at 32 to 40 F. Or ferment as kraut for indefinite storage."
+  },
+  "varieties": [
+    {
+      "slug": "early-jersey-wakefield",
+      "name": "Early Jersey Wakefield",
+      "subCategory": "early",
+      "daysToMaturity": [60, 75],
+      "notes": "Conical heads, sweet, the first spring cabbage."
+    },
+    {
+      "slug": "savoy-vertus",
+      "name": "Savoy Vertus",
+      "subCategory": "savoy",
+      "daysToMaturity": [80, 90],
+      "notes": "Crinkled leaves, tender, more cold-hardy than smooth types."
+    },
+    {
+      "slug": "brunswick",
+      "name": "Brunswick",
+      "subCategory": "storage",
+      "daysToMaturity": [95, 110],
+      "notes": "Large drumhead, excellent storage and kraut variety."
+    }
+  ],
+  "notes": "Watch for splitting: when heads firm up, cut roots on one side by twisting the plant a quarter turn to slow water uptake."
+}

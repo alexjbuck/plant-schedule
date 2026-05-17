@@ -1,0 +1,81 @@
+{
+  "slug": "broccoli",
+  "name": "Broccoli",
+  "scientificName": "Brassica oleracea (Italica)",
+  "category": "brassica",
+  "tags": ["cool-season", "transplant"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 30, "cm": 75 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w"
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD-2w",
+      "notes": "Bury stem up to first true leaves. Tolerates light frost."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Nitrogen-heavy at this stage; heads form best with steady N."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-14w",
+      "to": "FFD-12w",
+      "notes": "Fall crop is often the better one — heat-stress is the main enemy in spring."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD+2w",
+      "notes": "Cut the main head while buds are tight; side shoots keep coming for weeks."
+    }
+  ],
+  "companions": {
+    "good": ["onion", "celery", "potato", "dill"],
+    "bad": ["tomato", "strawberry"]
+  },
+  "pests": ["cabbage-worm", "aphid", "flea-beetle", "clubroot"],
+  "harvest": {
+    "cues": "Head is firm, buds tight and unopened. If you see yellow flowers, harvest immediately.",
+    "storageNotes": "Fridge 5 to 7 days. Blanch 3 minutes and freeze for longer."
+  },
+  "varieties": [
+    {
+      "slug": "calabrese",
+      "name": "Calabrese",
+      "subCategory": "italian-heirloom",
+      "daysToMaturity": [60, 70],
+      "notes": "Strong side-shoot production after main cut."
+    },
+    {
+      "slug": "waltham-29",
+      "name": "Waltham 29",
+      "subCategory": "fall",
+      "daysToMaturity": [70, 85],
+      "notes": "Bred for fall planting and cold tolerance."
+    }
+  ],
+  "notes": "Heat above 80 F triggers premature flowering ('buttoning'). Mulch heavily and shade in late spring. Floating row covers stop cabbage moths."
+}

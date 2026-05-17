@@ -1,0 +1,77 @@
+{
+  "slug": "winter-squash",
+  "name": "Winter squash",
+  "scientificName": "Cucurbita maxima / moschata",
+  "category": "cucurbit",
+  "tags": ["warm-season", "long-storage", "sprawling"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 36, "cm": 90 },
+    "rowSpacing": { "in": 72, "cm": 180 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular-deep"
+  },
+  "climate": {
+    "frostTolerance": "tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-3w",
+      "to": "LFD-2w",
+      "notes": "Only if your season is short. Cucurbits hate root disturbance — start in big peat pots."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Two seeds per hill, thin to one strongest."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-3w",
+      "to": "FFD",
+      "notes": "Wait for hard rind that resists thumbnail. Cure 10 days at 80 F for storage."
+    }
+  ],
+  "companions": {
+    "good": ["corn", "bean", "nasturtium"],
+    "bad": ["potato"]
+  },
+  "pests": ["squash-bug", "squash-vine-borer", "powdery-mildew"],
+  "harvest": {
+    "cues": "Skin is dull and hard, stem is brown and corky. Cut with 2 in of stem attached.",
+    "storageNotes": "Cure 10 to 14 days warm and dry, then store at 50 to 55 F. Butternuts last 6 months."
+  },
+  "varieties": [
+    {
+      "slug": "butternut",
+      "name": "Butternut",
+      "subCategory": "moschata",
+      "daysToMaturity": [100, 110],
+      "notes": "Best storage of the lot. Resistant to vine borer."
+    },
+    {
+      "slug": "delicata",
+      "name": "Delicata",
+      "subCategory": "pepo",
+      "daysToMaturity": [80, 100],
+      "notes": "Edible skin. Sweet, faster than most. Doesn't store as long."
+    },
+    {
+      "slug": "kabocha",
+      "name": "Kabocha",
+      "subCategory": "maxima",
+      "daysToMaturity": [95, 110],
+      "notes": "Dense, dry-fleshed Japanese pumpkin. Excellent for roasting."
+    }
+  ],
+  "notes": "Needs space — vines run 10 to 15 ft. Direct-seed if possible; transplant only if you must."
+}

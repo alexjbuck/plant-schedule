@@ -1,0 +1,74 @@
+{
+  "slug": "garlic",
+  "name": "Garlic",
+  "scientificName": "Allium sativum",
+  "category": "allium",
+  "tags": ["fall-planted", "overwinter", "long-storage"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [220, 270],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 2, "cm": 5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 35,
+    "optimalSoilTempF": [50, 65],
+    "minNightTempF": -10,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "Oct-1",
+      "to": "Nov-15",
+      "notes": "Fall planting, 4 to 6 weeks before ground freezes. Mulch heavily."
+    },
+    {
+      "phase": "side-dress",
+      "from": "Mar-15",
+      "to": "Apr-15",
+      "notes": "Top-dress with compost or balanced fert as tops emerge in spring."
+    },
+    {
+      "phase": "harvest",
+      "from": "Jul-1",
+      "to": "Aug-15",
+      "notes": "Pull when 3 to 4 lower leaves yellow, others still green. Cure 3 to 4 weeks."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "carrot", "beet", "lettuce"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["white-rot", "rust", "leek-moth", "onion-maggot"],
+  "harvest": {
+    "cues": "About half the leaves have yellowed but the plant still has green. Don't wait for full die-back — bulbs split.",
+    "storageNotes": "Cure 3 to 4 weeks in shade with airflow. Trim and store at 50 to 60 F with low humidity. Hardneck 4 to 6 months, softneck 6 to 9."
+  },
+  "varieties": [
+    {
+      "slug": "music",
+      "name": "Music",
+      "subCategory": "hardneck-porcelain",
+      "notes": "Big cloves, classic strong flavor. Excellent for cold climates."
+    },
+    {
+      "slug": "german-extra-hardy",
+      "name": "German Extra Hardy",
+      "subCategory": "hardneck-porcelain",
+      "notes": "4 to 6 large cloves per bulb. Very cold-hardy."
+    },
+    {
+      "slug": "inchelium-red",
+      "name": "Inchelium Red",
+      "subCategory": "softneck-artichoke",
+      "notes": "Mild, longer storage, no scapes. Best in mild winter climates."
+    }
+  ],
+  "notes": "Hardneck for flavor and cold tolerance; softneck for storage and braiding. Plant largest cloves — they grow the biggest bulbs."
+}

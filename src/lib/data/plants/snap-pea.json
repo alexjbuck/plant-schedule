@@ -1,0 +1,66 @@
+{
+  "slug": "snap-pea",
+  "name": "Snap pea",
+  "scientificName": "Pisum sativum",
+  "category": "legume",
+  "tags": ["cool-season", "trellis", "nitrogen-fixer"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 70],
+    "spacing": { "in": 2, "cm": 5 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 65],
+    "minNightTempF": 30,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-6w",
+      "to": "LFD-3w",
+      "notes": "As soon as soil can be worked. They'll shrug off frost as seedlings."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+3w",
+      "to": "LFD+8w",
+      "notes": "Pick every 2 days when peak. Plants stop producing once seeds bulge."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "radish", "lettuce", "spinach"],
+    "bad": ["onion", "garlic"]
+  },
+  "pests": ["pea-aphid", "powdery-mildew", "pea-weevil"],
+  "harvest": {
+    "cues": "Pods are plump, glossy, snap cleanly. Edges of peas just visible through the pod.",
+    "storageNotes": "Eat fresh — flavor falls off within 24 hours. Blanch and freeze for keeping."
+  },
+  "varieties": [
+    {
+      "slug": "sugar-snap",
+      "name": "Sugar Snap",
+      "subCategory": "snap",
+      "daysToMaturity": [60, 70],
+      "growthHabit": "vining",
+      "notes": "The original. 6 ft vines need a trellis."
+    },
+    {
+      "slug": "sugar-ann",
+      "name": "Sugar Ann",
+      "subCategory": "snap",
+      "daysToMaturity": [55, 65],
+      "growthHabit": "bush",
+      "notes": "Compact 2 ft plants. Earlier than vining types."
+    }
+  ],
+  "notes": "Heat above 80 F kills production. Aim to harvest before midsummer; in mild climates do a fall sowing 8 weeks before first frost."
+}

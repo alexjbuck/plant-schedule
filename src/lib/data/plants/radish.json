@@ -1,0 +1,82 @@
+{
+  "slug": "radish",
+  "name": "Radish",
+  "scientificName": "Raphanus sativus",
+  "category": "root-vegetable",
+  "tags": ["cool-season", "fast", "succession"],
+  "growth": {
+    "daysToGermination": [3, 7],
+    "daysToMaturity": [22, 30],
+    "spacing": { "in": 1, "cm": 2.5 },
+    "rowSpacing": { "in": 6, "cm": 15 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 65],
+    "minNightTempF": 25,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Succession every 7 to 10 days through spring."
+    },
+    {
+      "phase": "thin",
+      "from": "LFD-3w",
+      "to": "LFD+1w",
+      "notes": "To 1 inch. Thinnings are edible."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-8w",
+      "to": "FFD-4w",
+      "notes": "Fall succession through cool weather."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "FFD",
+      "notes": "Pull at 1 in diameter — bigger turns spongy and hot."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "carrot", "spinach", "cucumber"],
+    "bad": ["hyssop"]
+  },
+  "pests": ["flea-beetle", "root-maggot", "cabbage-worm"],
+  "harvest": {
+    "cues": "Roots show above soil at thumb-tip size. Test one before pulling all.",
+    "storageNotes": "Top, rinse, store in fridge in water-filled jar — keeps a week crisp."
+  },
+  "varieties": [
+    {
+      "slug": "cherry-belle",
+      "name": "Cherry Belle",
+      "subCategory": "spring",
+      "daysToMaturity": [22, 28]
+    },
+    {
+      "slug": "french-breakfast",
+      "name": "French Breakfast",
+      "subCategory": "spring",
+      "daysToMaturity": [25, 30],
+      "notes": "Oblong, red with white tip. Mild."
+    },
+    {
+      "slug": "watermelon",
+      "name": "Watermelon",
+      "subCategory": "winter",
+      "daysToMaturity": [55, 65],
+      "notes": "White outside, pink inside. Sow for fall harvest."
+    }
+  ],
+  "notes": "Best in cool, even moisture — hot dry weather makes them woody and pungent. Excellent gap-filler between slower crops."
+}

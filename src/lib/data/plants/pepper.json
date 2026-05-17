@@ -1,0 +1,82 @@
+{
+  "slug": "pepper",
+  "name": "Pepper",
+  "scientificName": "Capsicum annuum",
+  "category": "fruiting-vegetable",
+  "tags": ["warm-season", "transplant", "heat-loving"],
+  "growth": {
+    "daysToGermination": [7, 21],
+    "daysToMaturity": [60, 90],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 95,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-10w",
+      "to": "LFD-8w",
+      "notes": "Bottom-heat 80 to 85 F. Slow to germinate; soak seeds 8 hours first."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+2w",
+      "to": "LFD+4w",
+      "notes": "Wait until soil is 65+ F and nights are reliably above 55 F."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+6w",
+      "to": "LFD+8w",
+      "notes": "Balanced fertilizer at first flower."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD"
+    }
+  ],
+  "companions": {
+    "good": ["basil", "carrot", "onion", "tomato"],
+    "bad": ["fennel", "bean"]
+  },
+  "pests": ["aphid", "flea-beetle", "hornworm", "blossom-end-rot"],
+  "harvest": {
+    "cues": "Pick green for crunch; leave on the plant to color and sweeten. Snip with shears — stems are brittle.",
+    "storageNotes": "Fridge crisper 1 to 2 weeks. Freeze diced, no blanch needed."
+  },
+  "varieties": [
+    {
+      "slug": "jalapeno",
+      "name": "Jalapeño",
+      "subCategory": "hot",
+      "daysToMaturity": [70, 80],
+      "notes": "Prolific. Heat increases with stress and ripeness."
+    },
+    {
+      "slug": "california-wonder",
+      "name": "California Wonder",
+      "subCategory": "sweet-bell",
+      "daysToMaturity": [70, 85],
+      "notes": "Classic four-lobed bell. Lets red sweeten if you can wait."
+    },
+    {
+      "slug": "shishito",
+      "name": "Shishito",
+      "subCategory": "mild-frying",
+      "daysToMaturity": [60, 70],
+      "notes": "Pick at 2 to 3 inches. About 1 in 10 surprises you with heat."
+    }
+  ],
+  "notes": "Cage or stake — bushes are brittle and snap under fruit load. Mulch heavily once soil is warm."
+}
