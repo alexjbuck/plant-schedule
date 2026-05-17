@@ -1,0 +1,73 @@
+{
+  "slug": "shallot",
+  "name": "Shallot",
+  "scientificName": "Allium cepa (Aggregatum)",
+  "category": "allium",
+  "tags": ["long-season", "long-storage"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 20,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-6w",
+      "to": "LFD-3w",
+      "notes": "Plant sets pointy-end up, tip just at the soil. Or sow seed 12 weeks earlier indoors."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "Oct-1",
+      "to": "Nov-1",
+      "notes": "Fall planting (sets) in zones 6+ — winters in the ground, harvests in early summer."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+4w",
+      "to": "LFD+8w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "LFD+18w",
+      "notes": "Lift when tops fall and brown. Cure 2 to 3 weeks dry and airy."
+    }
+  ],
+  "companions": {
+    "good": ["carrot", "tomato", "beet", "lettuce"],
+    "bad": ["bean", "pea"]
+  },
+  "pests": ["onion-thrips", "white-rot", "downy-mildew"],
+  "harvest": {
+    "cues": "Tops have flopped and started to brown; necks soften. Lift gently; bulb cluster will split into individual shallots.",
+    "storageNotes": "Cure 2 to 3 weeks, then store in mesh or braided at 50 to 60 F. 6 to 10 months."
+  },
+  "varieties": [
+    {
+      "slug": "french-grey",
+      "name": "French Grey",
+      "subCategory": "grise",
+      "notes": "Strong, complex flavor. The chef's shallot. Harder to find as sets."
+    },
+    {
+      "slug": "ambition",
+      "name": "Ambition",
+      "subCategory": "red-skin",
+      "notes": "Large, single-bulb shallot from seed. Reliable, stores well."
+    }
+  ],
+  "notes": "From sets: each bulb splits into 4 to 8 over the season. From seed: single bulbs but more flexibility on variety. Same daylength rules as onion — match cultivar to your latitude."
+}

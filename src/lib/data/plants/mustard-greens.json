@@ -1,0 +1,77 @@
+{
+  "slug": "mustard-greens",
+  "name": "Mustard greens",
+  "scientificName": "Brassica juncea",
+  "category": "leafy-green",
+  "tags": ["cool-season", "fast", "succession", "spicy"],
+  "growth": {
+    "daysToGermination": [5, 10],
+    "daysToMaturity": [30, 45],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": 20,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Succession every 2 to 3 weeks while weather is cool."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-8w",
+      "to": "FFD-4w",
+      "notes": "Fall crop is milder; flavor sweetens after a light frost."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "FFD",
+      "notes": "Cut outer leaves at 4 in for cooking; baby leaves at 2 in for salad."
+    }
+  ],
+  "companions": {
+    "good": ["pea", "bean", "carrot"],
+    "bad": []
+  },
+  "pests": ["flea-beetle", "cabbage-worm", "aphid"],
+  "harvest": {
+    "cues": "Leaves 4 to 8 in, vibrant green or red. Cut outer leaves at the base.",
+    "storageNotes": "Fridge in damp paper towel 5 to 7 days. Excellent fermented."
+  },
+  "varieties": [
+    {
+      "slug": "florida-broadleaf",
+      "name": "Florida Broadleaf",
+      "subCategory": "smooth-leaf",
+      "daysToMaturity": [40, 50],
+      "notes": "Mild compared to others. Cooks down well."
+    },
+    {
+      "slug": "red-giant",
+      "name": "Red Giant",
+      "subCategory": "asian-purple",
+      "daysToMaturity": [40, 45],
+      "notes": "Purple-red leaves, hot and pungent. Beautiful in mixed salads."
+    },
+    {
+      "slug": "mizuna",
+      "name": "Mizuna",
+      "subCategory": "japanese-feathered",
+      "daysToMaturity": [30, 40],
+      "notes": "Feathery green leaves, mild peppery flavor. Slow to bolt."
+    }
+  ],
+  "notes": "Bolts hot in summer — plant in spring and fall, skip June through August. Heat increases pungency; cool weather = milder, sweeter leaves."
+}

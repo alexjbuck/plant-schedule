@@ -1,0 +1,64 @@
+{
+  "slug": "sweet-potato",
+  "name": "Sweet potato",
+  "scientificName": "Ipomoea batatas",
+  "category": "tuber",
+  "tags": ["warm-season", "heat-loving", "long-season"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 2, "cm": 5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 60,
+    "maxDayTempF": 100,
+    "hardinessZones": [5, 11]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "Plant slips (rooted shoots) into 70+ F soil. Use black plastic mulch in zones 6 and below."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-2w",
+      "to": "FFD",
+      "notes": "Lift before first hard frost — frosted vines rot the tubers. Cure 7 to 14 days at 80 F."
+    }
+  ],
+  "companions": {
+    "good": ["bean", "pea", "summer-savory"],
+    "bad": ["squash"]
+  },
+  "pests": ["sweet-potato-weevil", "wireworm", "deer"],
+  "harvest": {
+    "cues": "Test-dig one when vines start to yellow (or before first frost in cooler climates). Cure to sweeten and toughen skin.",
+    "storageNotes": "Cure 7 to 14 days at 80 F and high humidity; then store at 55 to 60 F. Keeps 6 to 12 months."
+  },
+  "varieties": [
+    {
+      "slug": "beauregard",
+      "name": "Beauregard",
+      "subCategory": "orange",
+      "daysToMaturity": [90, 100],
+      "notes": "Classic orange flesh, fast-maturing. Good in shorter seasons."
+    },
+    {
+      "slug": "japanese-purple",
+      "name": "Japanese Purple",
+      "subCategory": "purple",
+      "daysToMaturity": [100, 120],
+      "notes": "Purple skin, white flesh. Dry, chestnut-like flavor."
+    }
+  ],
+  "notes": "Order slips for spring delivery — start your own from a grocery-store sweet potato in water 6 weeks ahead. Likes lean, sandy soil; rich soil grows leaves not tubers."
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "celery",
+  "name": "Celery",
+  "scientificName": "Apium graveolens",
+  "category": "other",
+  "tags": ["cool-season", "long-season", "thirsty"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [100, 130],
+    "spacing": { "in": 8, "cm": 20 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "high"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 70],
+    "minNightTempF": 30,
+    "maxDayTempF": 80,
+    "hardinessZones": [3, 10]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-12w",
+      "to": "LFD-10w",
+      "notes": "Surface-sow; needs light to germinate. Slow grower."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "After hardening off — sudden cold causes bolting."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD+4w",
+      "to": "LFD+8w",
+      "notes": "Heavy feeder. Steady moisture is everything — stress = stringy stalks."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+14w",
+      "to": "FFD",
+      "notes": "Cut outer stalks anytime; or harvest whole head at the base."
+    }
+  ],
+  "companions": {
+    "good": ["leek", "tomato", "cabbage", "onion"],
+    "bad": ["parsnip", "carrot"]
+  },
+  "pests": ["aphid", "celery-fly", "slug", "early-blight"],
+  "harvest": {
+    "cues": "Stalks 8+ in, firm, before flower stalk appears.",
+    "storageNotes": "Fridge crisper 2 to 3 weeks in plastic. Freezes well chopped, lost crunch but flavor holds."
+  },
+  "varieties": [
+    {
+      "slug": "tall-utah",
+      "name": "Tall Utah 52-70",
+      "subCategory": "standard",
+      "daysToMaturity": [100, 120],
+      "notes": "The grocery-store celery. Crisp, large stalks."
+    },
+    {
+      "slug": "redventure",
+      "name": "Redventure",
+      "subCategory": "red",
+      "daysToMaturity": [110, 130],
+      "notes": "Striking red stalks, slightly more flavorful, more cold-tolerant."
+    }
+  ],
+  "notes": "Wants constant moisture — never let it dry out or stalks turn stringy and bitter. Blanch outer stalks by wrapping with cardboard 2 weeks before harvest for sweeter flavor."
+}

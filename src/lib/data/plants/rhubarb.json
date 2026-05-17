@@ -1,0 +1,68 @@
+{
+  "slug": "rhubarb",
+  "name": "Rhubarb",
+  "scientificName": "Rheum rhabarbarum",
+  "category": "other",
+  "tags": ["perennial", "long-lived", "cold-hardy"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [365, 730],
+    "spacing": { "in": 36, "cm": 90 },
+    "rowSpacing": { "in": 48, "cm": 120 },
+    "depth": { "in": 2, "cm": 5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 70],
+    "minNightTempF": -25,
+    "maxDayTempF": 85,
+    "hardinessZones": [3, 8]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD-4w",
+      "to": "LFD",
+      "notes": "Plant divided crowns 1 in below soil in early spring. Pick a permanent spot — lives 10 to 15+ years."
+    },
+    {
+      "phase": "side-dress",
+      "from": "LFD",
+      "to": "LFD+4w",
+      "notes": "Heavy feeder. Compost top-dress every spring."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+2w",
+      "to": "LFD+12w",
+      "notes": "NO harvest year 1. Light harvest year 2. Full harvest year 3+ (8 to 10 weeks until early July)."
+    }
+  ],
+  "companions": {
+    "good": ["strawberry", "asparagus", "horseradish"],
+    "bad": []
+  },
+  "pests": ["rhubarb-curculio", "crown-rot"],
+  "harvest": {
+    "cues": "Stalks 12 to 18 in long, finger-thick, firm. Pull (don't cut) with a twist. Leaves are TOXIC — compost them.",
+    "storageNotes": "Fridge in plastic 1 to 2 weeks. Chop and freeze raw for winter pies."
+  },
+  "varieties": [
+    {
+      "slug": "victoria",
+      "name": "Victoria",
+      "subCategory": "green-stem",
+      "notes": "Tangy classic. Stalks have green-red blush, not full red."
+    },
+    {
+      "slug": "canada-red",
+      "name": "Canada Red",
+      "subCategory": "red-stem",
+      "notes": "Deep red stalks, sweeter than Victoria. Slightly less productive."
+    }
+  ],
+  "notes": "Stop harvesting in midsummer to let the plant rebuild. Divide every 5 to 8 years. Cut flower stalks immediately — they sap the crown. Needs cold dormancy; struggles south of zone 8."
+}
