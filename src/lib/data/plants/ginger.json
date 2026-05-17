@@ -1,0 +1,68 @@
+{
+  "slug": "ginger",
+  "name": "Ginger",
+  "scientificName": "Zingiber officinale",
+  "category": "tuber",
+  "tags": ["warm-season", "long-season", "tropical"],
+  "growth": {
+    "daysToGermination": [14, 56],
+    "daysToMaturity": [240, 300],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 2, "cm": 5 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 60,
+    "maxDayTempF": 95,
+    "hardinessZones": [9, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "Jan-15",
+      "to": "Feb-15",
+      "notes": "Pre-sprout grocery-store ginger rhizomes in damp peat at 70 to 80 F for 6 to 8 weeks."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+3w",
+      "to": "LFD+6w",
+      "notes": "Plant 2 in deep, eye-buds up, after soil hits 65 F. Or grow in a pot to extend the season indoors."
+    },
+    {
+      "phase": "harvest",
+      "from": "FFD-2w",
+      "to": "FFD",
+      "notes": "Young 'baby' ginger: harvest after 4 months. Mature: dig at first frost."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato"],
+    "bad": []
+  },
+  "pests": ["aphid", "spider-mite", "root-rot-from-wet-soil"],
+  "harvest": {
+    "cues": "Tops yellow and die back, or before frost in cool climates. Lift the whole clump with a fork.",
+    "storageNotes": "Fresh rhizomes in fridge 1 month. Freeze whole; grate from frozen. Cure 2 weeks for longer storage."
+  },
+  "varieties": [
+    {
+      "slug": "common",
+      "name": "Common Ginger",
+      "subCategory": "culinary",
+      "notes": "The grocery-store rhizome. Find organic — non-organic is often sprout-inhibited."
+    },
+    {
+      "slug": "white-baby",
+      "name": "White Baby Ginger",
+      "subCategory": "harvested-young",
+      "notes": "Same plant, dug young. Tender, mild, no fibers. Premium price at farmers markets."
+    }
+  ],
+  "notes": "Grows in a pot indoors anywhere — south window, 4+ months. Outdoors needs full tropical heat. Don't peel young ginger (no fiber yet); peel mature rhizomes with a spoon edge."
+}

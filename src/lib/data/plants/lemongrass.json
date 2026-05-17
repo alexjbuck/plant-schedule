@@ -1,0 +1,56 @@
+{
+  "slug": "lemongrass",
+  "name": "Lemongrass",
+  "scientificName": "Cymbopogon citratus",
+  "category": "herb",
+  "tags": ["warm-season", "perennial-warm-zones", "tropical"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [100, 200],
+    "spacing": { "in": 24, "cm": 60 },
+    "rowSpacing": { "in": 36, "cm": 90 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [75, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 100,
+    "hardinessZones": [9, 11]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD+3w",
+      "to": "LFD+5w",
+      "notes": "Easiest from a rooted grocery-store stalk in water for 3 weeks. Buy a plant in cold-summer regions."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD",
+      "notes": "Cut whole stalks at the base. Plant must be well-established (at least 12 stalks) before first harvest."
+    }
+  ],
+  "companions": {
+    "good": ["basil", "pepper"],
+    "bad": []
+  },
+  "pests": ["spider-mite", "rust"],
+  "harvest": {
+    "cues": "Stalks 1/2 to 3/4 in thick at the base; tough outer leaves and fragrant fleshy inner stem.",
+    "storageNotes": "Fresh in fridge 2 weeks. Freeze whole stalks; flavor holds well. Dried tea leaves keep a year."
+  },
+  "varieties": [
+    {
+      "slug": "east-indian",
+      "name": "East Indian (West Indian) Lemongrass",
+      "subCategory": "culinary",
+      "notes": "Cymbopogon citratus, the cooking lemongrass. Used in Thai and Vietnamese dishes."
+    }
+  ],
+  "notes": "Below zone 9 grow as an annual or overwinter indoors in a pot. Single stalks become huge clumps (3 ft wide, 4 to 5 ft tall) by season's end. Roots easily from a fresh grocery-store stalk in a glass of water."
+}

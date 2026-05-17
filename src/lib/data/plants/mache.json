@@ -1,0 +1,70 @@
+{
+  "slug": "mache",
+  "name": "Mâche (Corn salad)",
+  "scientificName": "Valerianella locusta",
+  "category": "leafy-green",
+  "tags": ["cool-season", "frost-hardy", "winter-crop"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [50, 70],
+    "spacing": { "in": 3, "cm": 8 },
+    "rowSpacing": { "in": 6, "cm": 15 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 35,
+    "optimalSoilTempF": [45, 65],
+    "minNightTempF": 0,
+    "maxDayTempF": 70,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-6w",
+      "to": "LFD-3w",
+      "notes": "Doesn't tolerate heat — best in shoulder seasons and winter."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-4w",
+      "notes": "Fall sowings overwinter under mulch or row cover in zones 5+ for late-winter harvests."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-2w",
+      "to": "FFD+10w",
+      "notes": "Snip whole rosettes at the base when 2 to 3 in across, before flower stalk."
+    }
+  ],
+  "companions": {
+    "good": ["lettuce", "carrot", "radish"],
+    "bad": []
+  },
+  "pests": ["aphid", "slug"],
+  "harvest": {
+    "cues": "Tight rosette of paddle-shaped leaves, 2 to 3 in across, no flower stalk. Nutty-sweet flavor.",
+    "storageNotes": "Wraps in damp paper, fridge 3 to 5 days. Best fresh."
+  },
+  "varieties": [
+    {
+      "slug": "vit",
+      "name": "Vit",
+      "subCategory": "modern",
+      "daysToMaturity": [50, 60],
+      "notes": "Larger leaves, slightly faster. Standard for fresh markets."
+    },
+    {
+      "slug": "verte-de-cambrai",
+      "name": "Verte de Cambrai",
+      "subCategory": "heirloom",
+      "daysToMaturity": [60, 70],
+      "notes": "Small dark green leaves, intense flavor. The traditional French type."
+    }
+  ],
+  "notes": "Cold-hardy salad green of last resort — gives you fresh leaves in February when nothing else is alive. Self-seeds if you let one rosette flower."
+}

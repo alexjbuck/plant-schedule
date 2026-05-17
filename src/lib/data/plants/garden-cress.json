@@ -1,0 +1,69 @@
+{
+  "slug": "garden-cress",
+  "name": "Garden cress",
+  "scientificName": "Lepidium sativum",
+  "category": "leafy-green",
+  "tags": ["cool-season", "very-fast", "microgreen", "succession"],
+  "growth": {
+    "daysToGermination": [2, 5],
+    "daysToMaturity": [15, 35],
+    "spacing": { "in": 2, "cm": 5 },
+    "rowSpacing": { "in": 6, "cm": 15 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "partial",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 40,
+    "optimalSoilTempF": [50, 65],
+    "minNightTempF": 28,
+    "maxDayTempF": 75,
+    "hardinessZones": [3, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD+2w",
+      "notes": "Succession every 7 to 10 days — bolts within 30 days of sowing."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-8w",
+      "to": "FFD-2w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD-3w",
+      "to": "FFD",
+      "notes": "Cut at 2 to 3 in with scissors. Cut high enough above the soil and you may get a second cut."
+    }
+  ],
+  "companions": {
+    "good": ["radish", "lettuce", "spinach"],
+    "bad": []
+  },
+  "pests": ["flea-beetle", "aphid"],
+  "harvest": {
+    "cues": "Plants 2 to 3 in, two true leaves showing. Use immediately — flavor concentrates with age (and not always for the better).",
+    "storageNotes": "Wraps in damp paper, fridge 2 to 3 days. Best the day picked."
+  },
+  "varieties": [
+    {
+      "slug": "curled",
+      "name": "Curled Cress",
+      "subCategory": "garnish",
+      "daysToMaturity": [15, 20],
+      "notes": "Frilly, ornamental. The egg-and-cress sandwich classic."
+    },
+    {
+      "slug": "broadleaf",
+      "name": "Broadleaf Cress",
+      "subCategory": "salad",
+      "daysToMaturity": [25, 35],
+      "notes": "Flat leaves, slower-bolting, slightly milder."
+    }
+  ],
+  "notes": "Fastest crop in the garden — sometimes salad-ready in 15 days. Even kids can grow it indoors on a damp paper towel. Slightly peppery; mellow when very young."
+}

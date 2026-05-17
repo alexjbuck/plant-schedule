@@ -1,0 +1,68 @@
+{
+  "slug": "calendula",
+  "name": "Calendula (Pot marigold)",
+  "scientificName": "Calendula officinalis",
+  "category": "flower",
+  "tags": ["annual", "edible-flower", "pollinator", "self-seeding"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [50, 70],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.5, "cm": 1.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "semi-hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 75],
+    "minNightTempF": 25,
+    "maxDayTempF": 85,
+    "hardinessZones": [2, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-3w",
+      "to": "LFD+2w",
+      "notes": "Or start indoors 4 to 6 weeks earlier. Tolerates light frost."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "FFD-10w",
+      "to": "FFD-6w",
+      "notes": "Fall sowings in zones 7+ overwinter and bloom early."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+7w",
+      "to": "FFD+2w",
+      "notes": "Pick flowers daily — bushier plants and more blooms result."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "carrot", "bean", "cabbage"],
+    "bad": []
+  },
+  "pests": ["aphid", "powdery-mildew"],
+  "harvest": {
+    "cues": "Flowers fully open, sticky petals (resin = good salve!), yellow to deep orange.",
+    "storageNotes": "Petals dry beautifully — pull off the disk-center, dry petals on screen, store in jars for tea, soup color, or skin salves."
+  },
+  "varieties": [
+    {
+      "slug": "resina",
+      "name": "Resina",
+      "subCategory": "medicinal",
+      "notes": "Bred for high resin content. The healing-salve variety."
+    },
+    {
+      "slug": "pacific-beauty",
+      "name": "Pacific Beauty Mix",
+      "subCategory": "ornamental",
+      "notes": "Mixed yellow/orange/cream. Long-stemmed for cut flowers."
+    }
+  ],
+  "notes": "Easy, productive, self-seeds reliably. Petals are edible (mild, slightly bitter) and add saffron-like color to rice. Resin-rich varieties make a classic skin-healing salve infused in oil."
+}

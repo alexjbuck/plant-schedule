@@ -1,0 +1,63 @@
+{
+  "slug": "purslane",
+  "name": "Purslane",
+  "scientificName": "Portulaca oleracea",
+  "category": "leafy-green",
+  "tags": ["warm-season", "heat-loving", "succulent", "drought-tolerant"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [50, 60],
+    "spacing": { "in": 4, "cm": 10 },
+    "rowSpacing": { "in": 8, "cm": 20 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 100,
+    "hardinessZones": [4, 11]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+6w",
+      "notes": "Loves heat — sow only after the soil warms. Surface-sow; light helps germination."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-2w",
+      "notes": "Snip stem tips; pinch flowers to keep growth tender. Cut-and-come-again indefinitely."
+    }
+  ],
+  "companions": {
+    "good": ["pepper", "tomato", "corn"],
+    "bad": []
+  },
+  "pests": ["aphid", "leaf-miner"],
+  "harvest": {
+    "cues": "Stems 4 to 6 in, leaves plump and succulent. Avoid past-flowering stems — they get bitter and stringy.",
+    "storageNotes": "Fridge wrapped in damp paper 5 to 7 days. Best fresh; freezes poorly."
+  },
+  "varieties": [
+    {
+      "slug": "golden",
+      "name": "Golden Purslane",
+      "subCategory": "cultivated",
+      "daysToMaturity": [45, 55],
+      "notes": "Bred for upright growth, larger leaves, better flavor than the wild weed."
+    },
+    {
+      "slug": "wild",
+      "name": "Wild Purslane",
+      "subCategory": "weedy",
+      "notes": "The familiar garden weed. Equally edible — pull and eat instead of composting."
+    }
+  ],
+  "notes": "One of the highest plant sources of omega-3 fatty acids. Slightly lemony-tart, succulent texture. The garden weed and the cultivated form are interchangeable on the plate. Bolts after flowering — pinch to prolong harvest."
+}
