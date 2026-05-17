@@ -1,0 +1,56 @@
+name: Preview teardown
+
+on:
+  pull_request:
+    branches: [main]
+    types: [closed]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: preview-teardown-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  teardown:
+    name: Delete Cloudflare Pages deployments
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete preview deployments for branch
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+          api() { curl -fsS -H "Authorization: Bearer $CF_TOKEN" "$@"; }
+          base="https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/plant-schedule"
+
+          # List preview deployments, then filter to this branch and delete each.
+          ids=$(api "$base/deployments?env=preview&per_page=100" \
+            | jq -r --arg br "$BRANCH" '.result[] | select(.deployment_trigger.metadata.branch == $br) | .id')
+
+          if [ -z "$ids" ]; then
+            echo "No preview deployments to delete for branch $BRANCH"
+            exit 0
+          fi
+
+          count=0
+          for id in $ids; do
+            echo "Deleting deployment $id"
+            api -X DELETE "$base/deployments/$id?force=true" >/dev/null
+            count=$((count + 1))
+          done
+          echo "Deleted $count deployment(s) for branch $BRANCH"
+
+      - name: Update PR comment
+        if: always()
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: preview-url
+          message: |
+            ### Preview deployment
+
+            _Teardown complete — preview deployments for `${{ github.event.pull_request.head.ref }}` have been removed._
