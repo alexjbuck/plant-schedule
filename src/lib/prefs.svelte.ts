@@ -15,6 +15,12 @@ export type ResolvedLocation = {
   firstFrostDate: string | null;
 };
 
+export function hasFrostDates(
+  loc: ResolvedLocation | null
+): loc is ResolvedLocation & { lastFrostDate: string; firstFrostDate: string } {
+  return !!loc && !!loc.lastFrostDate && !!loc.firstFrostDate;
+}
+
 type Snapshot = {
   theme: Theme;
   units: Units;
