@@ -26,10 +26,6 @@ export function monthTicks(year: number): { label: string; date: Date }[] {
   }));
 }
 
-export function weekdayDate(d: Date): string {
-  return d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
-}
-
 export function daysBetween(a: Date, b: Date): number {
   const ms = b.getTime() - a.getTime();
   return Math.round(ms / 86_400_000);

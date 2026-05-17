@@ -23,8 +23,6 @@ export const allPlants: readonly Plant[] = [...bySlug.values()].toSorted((a, b) 
   a.name.localeCompare(b.name)
 );
 
-export const plantSlugs: readonly string[] = allPlants.map((p) => p.slug);
-
 export function plantBySlug(slug: string): Plant | undefined {
   return bySlug.get(slug);
 }

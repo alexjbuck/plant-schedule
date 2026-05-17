@@ -137,7 +137,3 @@ type ForecastResponse = {
   };
 };
 
-// Test helper. Not for production use.
-export function clearCacheForTests() {
-  memo.clear();
-}

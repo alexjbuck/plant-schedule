@@ -53,6 +53,3 @@ export const PHASE_STYLES: Record<Phase, PhaseStyle> = {
   }
 };
 
-export function phaseLabel(phase: Phase): string {
-  return PHASE_STYLES[phase].label;
-}
