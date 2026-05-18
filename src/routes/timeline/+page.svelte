@@ -51,6 +51,53 @@
   let activeTooltip: string | null = $state(null);
 
   const phaseEntries = Object.entries(PHASE_STYLES);
+
+  const MONTH_LABELS = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ];
+
+  type TimelineEvent = {
+    plant: Plant;
+    segment: Row['segments'][number];
+  };
+
+  const monthGroups = $derived.by(() => {
+    const events: TimelineEvent[] = [];
+    for (const row of rows) {
+      for (const segment of row.segments) {
+        events.push({ plant: row.plant, segment });
+      }
+    }
+    events.sort(
+      (a, b) =>
+        a.segment.from.getTime() - b.segment.from.getTime() ||
+        a.plant.name.localeCompare(b.plant.name)
+    );
+    const buckets: TimelineEvent[][] = Array.from({ length: 12 }, () => []);
+    for (const e of events) {
+      buckets[e.segment.from.getMonth()].push(e);
+    }
+    return buckets
+      .map((items, month) => ({ month, label: MONTH_LABELS[month], items }))
+      .filter((g) => g.items.length > 0);
+  });
+
+  const currentMonth = $derived(today.getMonth());
+
+  function isActiveNow(from: Date, to: Date): boolean {
+    return today >= from && today <= to;
+  }
 </script>
 
 <header class="flex items-center justify-between">
@@ -181,29 +228,55 @@
       </div>
     </div>
 
-    <div class="space-y-4 sm:hidden">
-      {#each rows as row (row.plant.slug)}
-        <article
-          class="rounded-card border border-sage/20 bg-cream-soft/40 p-3 dark:border-sage-dark/40 dark:bg-charcoal-soft"
-        >
-          <a
-            href={resolvePath('/plants/[slug]', { slug: row.plant.slug })}
-            class="font-display text-base font-semibold text-moss hover:text-terracotta dark:text-cream"
+    <div class="space-y-5 sm:hidden">
+      {#each monthGroups as group (group.month)}
+        <section>
+          <h2
+            class="sticky top-0 z-10 -mx-1 mb-2 flex items-baseline gap-2 bg-cream/95 px-1 py-1 font-display text-sm font-semibold tracking-wide text-moss-light uppercase backdrop-blur dark:bg-charcoal/95 dark:text-cream-soft"
+            class:text-terracotta={group.month === currentMonth}
+            class:dark:text-terracotta={group.month === currentMonth}
           >
-            {row.plant.name}
-          </a>
-          <ul class="mt-2 space-y-1">
-            {#each row.segments as s, i (row.plant.slug + s.phase + i)}
-              <li class="flex items-center gap-2 text-sm">
-                <span class="inline-block h-2.5 w-4 rounded {s.style.fill}"></span>
-                <span class="font-medium text-moss dark:text-cream">{s.style.label}</span>
-                <span class="text-moss-light dark:text-cream-soft">
-                  {formatRange(s.from, s.to)}
-                </span>
+            {group.label}
+            {#if group.month === currentMonth}
+              <span class="text-[10px] font-medium tracking-normal normal-case">· now</span>
+            {/if}
+          </h2>
+          <ul
+            class="divide-y divide-sage/15 overflow-hidden rounded-card border border-sage/20 bg-cream-soft/40 dark:divide-sage-dark/30 dark:border-sage-dark/40 dark:bg-charcoal-soft"
+          >
+            {#each group.items as e, i (e.plant.slug + e.segment.phase + i)}
+              {@const active = isActiveNow(e.segment.from, e.segment.to)}
+              <li>
+                <a
+                  href={resolvePath('/plants/[slug]', { slug: e.plant.slug })}
+                  class="flex items-center gap-3 px-3 py-2.5 hover:bg-cream-soft dark:hover:bg-charcoal"
+                >
+                  <span
+                    class="inline-flex shrink-0 items-center rounded px-1.5 py-0.5 text-[10px] font-medium {e
+                      .segment.style.fill} {e.segment.style.text}"
+                  >
+                    {e.segment.style.label}
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block truncate text-sm font-medium text-moss dark:text-cream">
+                      {e.plant.name}
+                    </span>
+                    <span class="block text-xs text-moss-light dark:text-cream-soft">
+                      {formatRange(e.segment.from, e.segment.to)}
+                    </span>
+                  </span>
+                  {#if active}
+                    <span
+                      class="shrink-0 rounded-full bg-terracotta/15 px-1.5 py-0.5 text-[10px] font-medium text-terracotta"
+                    >
+                      now
+                    </span>
+                  {/if}
+                </a>
               </li>
             {/each}
           </ul>
-        </article>
+        </section>
       {/each}
     </div>
   {/if}
