@@ -1,0 +1,68 @@
+{
+  "slug": "bee-balm",
+  "name": "Bee balm",
+  "scientificName": "Monarda didyma",
+  "category": "herb",
+  "tags": ["perennial", "pollinator", "edible-flower", "native"],
+  "growth": {
+    "daysToGermination": [14, 21],
+    "daysToMaturity": [110, 130],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 75],
+    "minNightTempF": -25,
+    "maxDayTempF": 90,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Surface-sow; needs light to germinate. Cold-moist stratify 2 weeks first for stubborn seed."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD",
+      "to": "LFD+3w",
+      "notes": "Or buy potted divisions — flowers the first year that way."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-2w",
+      "notes": "Cut flowering stems for tea or bouquets. Deadhead to extend bloom into late summer."
+    }
+  ],
+  "companions": {
+    "good": ["tomato", "pepper", "echinacea"],
+    "bad": []
+  },
+  "pests": ["powdery-mildew", "rust", "spider-mite"],
+  "harvest": {
+    "cues": "Flowers fully open, ragged tubular blooms in red/pink/purple. Cut whole stems for cutting or tea.",
+    "storageNotes": "Hang bundles upside down in shade to dry. Leaves and petals make a citrus-bergamot tea (Oswego tea)."
+  },
+  "varieties": [
+    {
+      "slug": "jacob-cline",
+      "name": "Jacob Cline",
+      "subCategory": "scarlet",
+      "notes": "Tall (4 ft), bright red, the most mildew-resistant common variety."
+    },
+    {
+      "slug": "raspberry-wine",
+      "name": "Raspberry Wine",
+      "subCategory": "pink-magenta",
+      "notes": "Wine-red blooms, reliable. Good mildew resistance."
+    }
+  ],
+  "notes": "Hummingbird magnet. Spreads by rhizome — divide every 3 years to keep vigorous and limit the patch. Prefers consistent moisture; mildew is worse in dry, crowded plantings. Container-grown plants stay tidy and bloom heavily."
+}

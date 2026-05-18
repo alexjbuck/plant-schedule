@@ -1,0 +1,74 @@
+{
+  "slug": "coneflower",
+  "name": "Coneflower (Echinacea)",
+  "scientificName": "Echinacea purpurea",
+  "category": "flower",
+  "tags": ["perennial", "drought-tolerant", "pollinator", "native", "medicinal"],
+  "growth": {
+    "daysToGermination": [10, 21],
+    "daysToMaturity": [100, 130],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.25, "cm": 0.6 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [65, 80],
+    "minNightTempF": -30,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-10w",
+      "to": "LFD-8w",
+      "notes": "Cold-moist stratify 4 weeks in the fridge first — germination jumps from spotty to reliable."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+3w",
+      "notes": "Tolerates a light frost. Potted nursery plants establish faster than seed-grown."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+12w",
+      "to": "FFD-2w",
+      "notes": "First-year plants may bloom lightly; year 2+ blooms hard from midsummer to frost."
+    }
+  ],
+  "companions": {
+    "good": ["bee-balm", "yarrow", "lavender"],
+    "bad": []
+  },
+  "pests": ["aster-yellows", "japanese-beetle", "powdery-mildew"],
+  "harvest": {
+    "cues": "Petals fully reflexed around a spiky bronze cone. Cut long stems for vases; goldfinches strip the seed heads in fall.",
+    "storageNotes": "Cut flowers last 7 to 10 days in water. Leave some seed heads standing through winter for finches and structural interest."
+  },
+  "varieties": [
+    {
+      "slug": "magnus",
+      "name": "Magnus",
+      "subCategory": "purple-classic",
+      "notes": "Big horizontal petals (not drooping), deep rose-purple. Perennial Plant of the Year 1998."
+    },
+    {
+      "slug": "white-swan",
+      "name": "White Swan",
+      "subCategory": "white",
+      "notes": "Creamy white petals around an orange cone. Comes mostly true from seed."
+    },
+    {
+      "slug": "cheyenne-spirit",
+      "name": "Cheyenne Spirit",
+      "subCategory": "mixed-colors",
+      "notes": "Mix of red, orange, yellow, cream, pink. First-year flowering from seed."
+    }
+  ],
+  "notes": "Tap-rooted — site it where you want it, mature plants resent moving. Leave seed heads standing for winter goldfinches and self-sown seedlings. Aster yellows (a phytoplasma) causes green deformed flowers; pull and burn affected plants, don't compost. Container-grown plants stay tidy and flower the same year."
+}

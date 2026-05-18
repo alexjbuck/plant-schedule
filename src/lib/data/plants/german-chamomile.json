@@ -1,0 +1,68 @@
+{
+  "slug": "german-chamomile",
+  "name": "German chamomile",
+  "scientificName": "Matricaria chamomilla",
+  "category": "herb",
+  "tags": ["annual", "self-seeding", "pollinator", "medicinal", "edible-flower"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [60, 75],
+    "spacing": { "in": 6, "cm": 15 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.0625, "cm": 0.15 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 45,
+    "optimalSoilTempF": [55, 70],
+    "minNightTempF": 25,
+    "maxDayTempF": 85,
+    "hardinessZones": [2, 9]
+  },
+  "schedule": [
+    {
+      "phase": "direct-sow",
+      "from": "LFD-4w",
+      "to": "LFD+2w",
+      "notes": "Surface-sow; light required for germination. Press into soil, don't cover."
+    },
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w",
+      "notes": "Easier to direct-sow — seedlings are tiny and fussy to transplant."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+8w",
+      "to": "FFD-2w",
+      "notes": "Pick flowers when petals are fully reflexed and the yellow disk is dome-shaped. Daily picking keeps plants blooming."
+    }
+  ],
+  "companions": {
+    "good": ["cabbage", "onion", "cucumber", "basil"],
+    "bad": []
+  },
+  "pests": ["aphid", "thrip"],
+  "harvest": {
+    "cues": "Flower disk has lifted into a cone and white petals point downward. Pinch heads off; a chamomile rake speeds the job.",
+    "storageNotes": "Spread on screens to dry in a warm, dark, airy spot. Store in jars away from light. Use 1 to 2 teaspoons dried per cup for tea."
+  },
+  "varieties": [
+    {
+      "slug": "bodegold",
+      "name": "Bodegold",
+      "subCategory": "high-oil",
+      "notes": "Bred for high essential-oil content. The medicinal-grade variety."
+    },
+    {
+      "slug": "zloty-lan",
+      "name": "Zloty Lan",
+      "subCategory": "polish",
+      "notes": "Polish high-yielding strain. Large flowers, easy to pick."
+    }
+  ],
+  "notes": "True annual chamomile (not the perennial Roman type). Self-seeds reliably — let a few flowers go to seed at the end of the season and you'll never have to sow it again. Ferny foliage smells of apples when crushed. Don't confuse with mayweed (Anthemis cotula), which looks similar but stinks."
+}

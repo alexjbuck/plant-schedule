@@ -71,6 +71,13 @@
       "subCategory": "maxima",
       "daysToMaturity": [95, 110],
       "notes": "Dense, dry-fleshed Japanese pumpkin. Excellent for roasting."
+    },
+    {
+      "slug": "spaghetti",
+      "name": "Spaghetti",
+      "subCategory": "pepo",
+      "daysToMaturity": [85, 100],
+      "notes": "Yellow oval fruits with stringy flesh that pulls apart like noodles. Trellises well — fruits stay small enough (3 to 5 lb) not to need slings."
     }
   ],
   "notes": "Needs space — vines run 10 to 15 ft. Direct-seed if possible; transplant only if you must."

@@ -1,0 +1,82 @@
+{
+  "slug": "celosia",
+  "name": "Celosia",
+  "scientificName": "Celosia argentea",
+  "category": "flower",
+  "tags": ["annual", "cut-flower", "heat-loving", "pollinator"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [70, 90],
+    "spacing": { "in": 10, "cm": 25 },
+    "rowSpacing": { "in": 12, "cm": 30 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 65,
+    "optimalSoilTempF": [70, 85],
+    "minNightTempF": 55,
+    "maxDayTempF": 100,
+    "hardinessZones": [2, 11]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-6w",
+      "to": "LFD-4w",
+      "notes": "Surface-sow; needs light to germinate. Bottom heat speeds it up."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Wait for warm soil and settled nights — celosia stalls and yellows in cold soil and rarely recovers."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD+2w",
+      "to": "LFD+4w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-1w",
+      "notes": "Cut for vases when the lowest flowers on the spike are open. Holds in the field for weeks."
+    }
+  ],
+  "companions": {
+    "good": ["marigold", "zinnia", "tomato"],
+    "bad": []
+  },
+  "pests": ["spider-mite", "aphid", "leaf-spot"],
+  "harvest": {
+    "cues": "Plume or comb is fully colored and bottom florets are just opening. Cut long stems early morning, strip lower leaves.",
+    "storageNotes": "Excellent dried — hang upside down in shade, holds color for a year. Fresh stems last 10 to 14 days in water."
+  },
+  "varieties": [
+    {
+      "slug": "plumosa",
+      "name": "Plumosa (Feathered)",
+      "subCategory": "plume",
+      "daysToMaturity": [70, 90],
+      "notes": "Soft feather-plumes in red, gold, pink, orange. The classic 'cockscomb' substitute, easier to dry."
+    },
+    {
+      "slug": "cristata",
+      "name": "Cristata (Cockscomb)",
+      "subCategory": "crested",
+      "daysToMaturity": [80, 100],
+      "notes": "Brain-coral-shaped crested heads, dense and weighty. Statement flower."
+    },
+    {
+      "slug": "spicata",
+      "name": "Spicata (Wheat / Flamingo Feather)",
+      "subCategory": "spike",
+      "daysToMaturity": [75, 90],
+      "notes": "Narrow wheat-like spikes in pink and silver-white. Tall (3 to 4 ft), branching, productive cut flower."
+    }
+  ],
+  "notes": "Truly heat-loving — don't rush it out, cool nights stunt plants permanently. Pinch when 6 in tall to force branching and more (smaller) stems for cutting. Leaves are edible cooked greens in West African cuisine."
+}

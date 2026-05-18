@@ -1,0 +1,79 @@
+{
+  "slug": "yarrow",
+  "name": "Yarrow",
+  "scientificName": "Achillea millefolium",
+  "category": "herb",
+  "tags": ["perennial", "drought-tolerant", "pollinator", "native", "medicinal"],
+  "growth": {
+    "daysToGermination": [14, 28],
+    "daysToMaturity": [90, 120],
+    "spacing": { "in": 18, "cm": 45 },
+    "rowSpacing": { "in": 24, "cm": 60 },
+    "depth": { "in": 0.125, "cm": 0.3 },
+    "sun": "full",
+    "water": "low"
+  },
+  "climate": {
+    "frostTolerance": "hardy",
+    "minSoilTempF": 50,
+    "optimalSoilTempF": [60, 75],
+    "minNightTempF": -30,
+    "maxDayTempF": 95,
+    "hardinessZones": [3, 9]
+  },
+  "schedule": [
+    {
+      "phase": "indoor-start",
+      "from": "LFD-8w",
+      "to": "LFD-6w",
+      "notes": "Surface-sow; needs light to germinate. Press in, don't bury."
+    },
+    {
+      "phase": "transplant",
+      "from": "LFD-2w",
+      "to": "LFD+3w",
+      "notes": "Tolerates a light frost once hardened off."
+    },
+    {
+      "phase": "direct-sow",
+      "from": "LFD-2w",
+      "to": "LFD+3w"
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+10w",
+      "to": "FFD-2w",
+      "notes": "Cut whole stems when flowers are fully open. Repeat-blooms if cut hard."
+    }
+  ],
+  "companions": {
+    "good": ["echinacea", "lavender", "rosemary", "tomato"],
+    "bad": []
+  },
+  "pests": ["powdery-mildew", "aphid"],
+  "harvest": {
+    "cues": "Flat-topped flower clusters fully open and showing color. Cut stems to the base for a second flush.",
+    "storageNotes": "Excellent dried — hang in bundles upside down. Holds color for months in arrangements."
+  },
+  "varieties": [
+    {
+      "slug": "common-white",
+      "name": "Common Yarrow",
+      "subCategory": "wild-type",
+      "notes": "White flat clusters, ferny gray-green foliage. The classic medicinal form."
+    },
+    {
+      "slug": "moonshine",
+      "name": "Moonshine",
+      "subCategory": "ornamental",
+      "notes": "Bright lemon-yellow, silvery foliage, compact 18 to 24 in. Hybrid; doesn't spread."
+    },
+    {
+      "slug": "summer-pastels",
+      "name": "Summer Pastels Mix",
+      "subCategory": "ornamental",
+      "notes": "Pink, peach, lavender, cream — easy from seed, first-year flowering."
+    }
+  ],
+  "notes": "Thrives on neglect; rich or wet soil makes it floppy and disease-prone. Spreads by rhizome — the wild white form can colonize, hybrids stay put. Lacy foliage and umbel flowers are top pollinator habitat for hoverflies and parasitic wasps that eat aphids."
+}

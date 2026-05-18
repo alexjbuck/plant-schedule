@@ -1,0 +1,68 @@
+{
+  "slug": "sweet-potato-vine",
+  "name": "Sweet potato vine",
+  "scientificName": "Ipomoea batatas (ornamental cultivars)",
+  "category": "flower",
+  "tags": ["annual", "ornamental-foliage", "heat-loving", "container", "trailing"],
+  "growth": {
+    "daysToGermination": [7, 14],
+    "daysToMaturity": [30, 45],
+    "spacing": { "in": 12, "cm": 30 },
+    "rowSpacing": { "in": 18, "cm": 45 },
+    "depth": { "in": 1, "cm": 2.5 },
+    "sun": "full",
+    "water": "regular"
+  },
+  "climate": {
+    "frostTolerance": "very-tender",
+    "minSoilTempF": 60,
+    "optimalSoilTempF": [70, 90],
+    "minNightTempF": 55,
+    "maxDayTempF": 100,
+    "hardinessZones": [9, 11]
+  },
+  "schedule": [
+    {
+      "phase": "transplant",
+      "from": "LFD+1w",
+      "to": "LFD+3w",
+      "notes": "Buy plants or root your own cuttings in water. Wait for warm soil — cold-shocked plants stall for weeks."
+    },
+    {
+      "phase": "harvest",
+      "from": "LFD+4w",
+      "to": "FFD-1w",
+      "notes": "Pinch tips to keep mounding habit dense and take cuttings any time. Frost blackens the foliage overnight — pull and compost, or root cuttings in water indoors to overwinter."
+    }
+  ],
+  "companions": {
+    "good": ["coleus", "celosia", "marigold", "pepper", "eggplant"],
+    "bad": []
+  },
+  "pests": ["sweet-potato-weevil", "golden-tortoise-beetle", "whitefly", "deer"],
+  "harvest": {
+    "cues": "Grown for foliage, not fruit. Pinch growing tips when stems are 8+ in to encourage branching.",
+    "storageNotes": "Root 4 in stem cuttings in a jar of water on a sunny windowsill — they hold all winter and pot up cheap next spring. Tubers can be lifted and stored frost-free but are tough and bland (not bred for eating)."
+  },
+  "varieties": [
+    {
+      "slug": "sweet-caroline-raven",
+      "name": "Sweet Caroline Raven",
+      "subCategory": "near-black-arrowhead",
+      "notes": "Near-black arrowhead leaves on a compact mounding habit. Sun-tolerant and less rampant than older 'Blackie' types. PP31,837."
+    },
+    {
+      "slug": "blackie",
+      "name": "Blackie",
+      "subCategory": "deep-purple-lobed",
+      "notes": "The original dark cultivar — deep purple-black, maple-shaped lobed leaves, vigorous trailing to 6 ft."
+    },
+    {
+      "slug": "marguerite",
+      "name": "Marguerite",
+      "subCategory": "chartreuse-heart",
+      "notes": "Bright chartreuse heart-shaped leaves. The lime-green counterpart used to brighten dark pairings."
+    }
+  ],
+  "notes": "Grown for foliage, not tubers — ornamental cultivars produce poor, woody, sometimes inedible roots despite being the same species as edible sweet potato. Trailing or mounding by cultivar; thrives in heat that flattens other annuals. Cheap to propagate: snip a stem, stick it in water for a week, plant it. Patented varieties (PP numbers) restrict commercial propagation but personal cuttings are fine."
+}
