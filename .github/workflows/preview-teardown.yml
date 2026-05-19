@@ -25,25 +25,62 @@ jobs:
           BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           set -euo pipefail
-          api() { curl -fsS -H "Authorization: Bearer $CF_TOKEN" "$@"; }
           base="https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/plant-schedule"
 
-          # List preview deployments, then filter to this branch and delete each.
-          ids=$(api "$base/deployments?env=preview&per_page=100" \
-            | jq -r --arg br "$BRANCH" '.result[] | select(.deployment_trigger.metadata.branch == $br) | .id')
+          # curl wrapper that surfaces the response body on HTTP errors instead
+          # of failing with an opaque "curl: (22)".
+          api() {
+            local method=GET url body http
+            if [ "$1" = "-X" ]; then method="$2"; shift 2; fi
+            url="$1"
+            body=$(mktemp)
+            http=$(curl -sS -o "$body" -w '%{http_code}' \
+              -X "$method" -H "Authorization: Bearer $CF_TOKEN" "$url")
+            if [ "$http" -ge 400 ]; then
+              echo "Cloudflare API $method $url -> HTTP $http" >&2
+              sed 's/^/  /' "$body" >&2
+              rm -f "$body"
+              return 1
+            fi
+            cat "$body"
+            rm -f "$body"
+          }
+
+          # List preview deployments, paginating through results. The deployments
+          # endpoint caps per_page at 25.
+          ids=""
+          page=1
+          while :; do
+            resp=$(api "$base/deployments?env=preview&per_page=25&page=$page")
+            batch=$(echo "$resp" | jq -r --arg br "$BRANCH" \
+              '.result[] | select(.deployment_trigger.metadata.branch == $br) | .id')
+            if [ -n "$batch" ]; then
+              if [ -n "$ids" ]; then ids+=$'\n'; fi
+              ids+="$batch"
+            fi
+            returned=$(echo "$resp" | jq '.result | length')
+            if [ "$returned" -lt 25 ]; then break; fi
+            page=$((page + 1))
+          done
 
           if [ -z "$ids" ]; then
             echo "No preview deployments to delete for branch $BRANCH"
             exit 0
           fi
 
-          count=0
-          for id in $ids; do
+          deleted=0
+          failed=0
+          while IFS= read -r id; do
+            [ -n "$id" ] || continue
             echo "Deleting deployment $id"
-            api -X DELETE "$base/deployments/$id?force=true" >/dev/null
-            count=$((count + 1))
-          done
-          echo "Deleted $count deployment(s) for branch $BRANCH"
+            if api -X DELETE "$base/deployments/$id?force=true" >/dev/null; then
+              deleted=$((deleted + 1))
+            else
+              failed=$((failed + 1))
+            fi
+          done <<< "$ids"
+          echo "Deleted $deleted deployment(s) for branch $BRANCH ($failed failure(s))"
+          [ "$failed" -eq 0 ]
 
       - name: Update PR comment
         if: always()
